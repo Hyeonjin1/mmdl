@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "optimizer_steps": 0,
+  "reload_verified": true,
+  "generation_count": 32,
+  "elapsed_seconds": 29.676856809004676,
+  "wall_seconds": 32.256582952977624,
+  "started_utc": "2026-10-08T07:59:01.466039+00:00",
+  "ended_utc": "2026-10-08T07:59:33.722844+00:00",
+  "scores": {
+    "base": {
+      "correct": 2,
+      "total": 16
+    },
+    "adapter": {
+      "correct": 8,
+      "total": 16
+    }
+  }
+}

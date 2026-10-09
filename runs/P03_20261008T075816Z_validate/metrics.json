@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "optimizer_steps": 0,
+  "rows_checked": 80,
+  "max_total_tokens": 878,
+  "min_supervised_tokens": 2,
+  "wall_seconds": 3.1812730000237934,
+  "started_utc": "2026-10-08T07:58:18.699287+00:00",
+  "ended_utc": "2026-10-08T07:58:21.880737+00:00"
+}

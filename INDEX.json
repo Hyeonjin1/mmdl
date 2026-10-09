@@ -1,0 +1,55 @@
+{
+  "repository": "Hyeonjin1/mmdl",
+  "scope": "P03 pipeline validation; no improvement claim",
+  "runs": [
+    {
+      "run_id": "P03_20261008T075815Z_gpu_cleanup",
+      "stage": "gpu_cleanup",
+      "status": "completed",
+      "optimizer_steps": 0,
+      "report": "runs/P03_20261008T075815Z_gpu_cleanup/experiment.md"
+    },
+    {
+      "run_id": "P03_20261008T075816Z_evaluate",
+      "stage": "evaluate",
+      "status": "completed",
+      "optimizer_steps": 0,
+      "report": "runs/P03_20261008T075816Z_evaluate/experiment.md"
+    },
+    {
+      "run_id": "P03_20261008T075816Z_selftest",
+      "stage": "selftest",
+      "status": "completed",
+      "optimizer_steps": 0,
+      "report": "runs/P03_20261008T075816Z_selftest/experiment.md"
+    },
+    {
+      "run_id": "P03_20261008T075816Z_train_bf16",
+      "stage": "train",
+      "status": "completed",
+      "optimizer_steps": 20,
+      "report": "runs/P03_20261008T075816Z_train_bf16/experiment.md"
+    },
+    {
+      "run_id": "P03_20261008T075816Z_validate",
+      "stage": "validate",
+      "status": "completed",
+      "optimizer_steps": 0,
+      "report": "runs/P03_20261008T075816Z_validate/experiment.md"
+    },
+    {
+      "run_id": "P03_20261008T081920Z_completion_audit",
+      "stage": "completion_audit",
+      "status": "completed",
+      "optimizer_steps": 0,
+      "report": "runs/P03_20261008T081920Z_completion_audit/experiment.md"
+    },
+    {
+      "run_id": "P03_20261009T081238Z_selftest",
+      "stage": "selftest",
+      "status": "completed",
+      "optimizer_steps": 0,
+      "report": "runs/P03_20261009T081238Z_selftest/experiment.md"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": "completed",
+  "optimizer_steps": 0,
+  "question_exposures": 80,
+  "epochs_equivalent": 1.25,
+  "training_seconds": 32.64148818899412,
+  "first_loss": 4.0142334178090096,
+  "last_loss": 0.13970542125753127,
+  "reload_verified": true,
+  "wall_seconds": 0.14692119497340173,
+  "started_utc": "2026-10-08T08:19:21.584312+00:00",
+  "ended_utc": "2026-10-08T08:19:21.731473+00:00",
+  "verified_optimizer_steps": 20,
+  "checkpoint_hashes_verified": true,
+  "adapter_tensor_count": 504,
+  "adapter_parameters": 33030144,
+  "adapter_B_nonzero": true,
+  "peak_allocated_gib": 10.204607486724854,
+  "peak_reserved_gib": 13.005859375,
+  "generation_checks": {
+    "base": {
+      "correct": 2,
+      "total": 16,
+      "output_cap_reached": 14,
+      "parse_failure": 0,
+      "empty_response": 0
+    },
+    "adapter": {
+      "correct": 8,
+      "total": 16,
+      "output_cap_reached": 0,
+      "parse_failure": 0,
+      "empty_response": 0
+    }
+  }
+}

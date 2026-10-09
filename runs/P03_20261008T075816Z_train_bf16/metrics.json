@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "optimizer_steps": 20,
+  "question_exposures": 80,
+  "unique_questions_exposed": 64,
+  "epochs_equivalent": 1.25,
+  "input_tokens": 33820,
+  "supervised_tokens": 318,
+  "peak_allocated_bytes": 10957113856,
+  "peak_reserved_bytes": 13964935168,
+  "training_seconds": 32.64148818899412,
+  "first_loss": 4.0142334178090096,
+  "last_loss": 0.13970542125753127,
+  "trainable_parameter_count": 33030144,
+  "adapter_saved": true,
+  "reload_verified": false,
+  "wall_seconds": 36.19507604901446,
+  "started_utc": "2026-10-08T07:58:23.406101+00:00",
+  "ended_utc": "2026-10-08T07:58:59.601398+00:00"
+}
