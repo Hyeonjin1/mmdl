@@ -1,0 +1,498 @@
+{
+  "as_of": "2026-10-11",
+  "timezone": "Asia/Seoul",
+  "source_root": "Music/",
+  "scope": "Selected local project documents, experiment notes and aggregate metrics; not an exhaustive raw-artifact or remote-state audit.",
+  "repositories": [
+    {
+      "directory": "bindref",
+      "head": "92d4fb7bf6e8d20bfa431ba8fd27de07b4be7be3",
+      "head_subject": "Support Qwen thinking in stored SepView evaluation",
+      "tracked_markdown_count": 323,
+      "origin_kind": "local_bundle",
+      "tracked_changes": []
+    },
+    {
+      "directory": "bindref_attention_budget_20260929",
+      "head": "53ac60753648c321a5bed02672d97e42d404a353",
+      "head_subject": "Add named host launcher for attention budget measurement",
+      "tracked_markdown_count": 357,
+      "origin_kind": "local_bundle",
+      "tracked_changes": []
+    },
+    {
+      "directory": "bindref_attention_runtime_20261011",
+      "head": "5b3652304494145a48164499c97d6b7e65e3edc9",
+      "head_subject": "Allow exact small runtime dependencies in offline package archives",
+      "tracked_markdown_count": 700,
+      "origin_kind": "local_bundle",
+      "tracked_changes": []
+    },
+    {
+      "directory": "bindref_gemma_interventions_20260928",
+      "head": "2d02672a345262d901dbcf608524cc25046154e3",
+      "head_subject": "Run Gemma matched SSI interventions with same-model PIVOT stage1",
+      "tracked_markdown_count": 341,
+      "origin_kind": "local_bundle",
+      "tracked_changes": []
+    },
+    {
+      "directory": "bindref_m2f_score015_auto_20260930",
+      "head": "218c95f46839163edaaae846b1e96575435d0efd",
+      "head_subject": "Offload activations only for large candidate groups",
+      "tracked_markdown_count": 395,
+      "origin_kind": "local_bundle",
+      "tracked_changes": []
+    },
+    {
+      "directory": "bindref_pairwise_m2f_20261004",
+      "head": "8f65b6d211b1ed1437980a5900da2879393bb539",
+      "head_subject": "Add one-pass candidate Yes No attention-gate objective",
+      "tracked_markdown_count": 480,
+      "origin_kind": "local_bundle",
+      "tracked_changes": []
+    },
+    {
+      "directory": "bindref_qwen4b_grpo_baseline",
+      "head": "218c95f46839163edaaae846b1e96575435d0efd",
+      "head_subject": "Offload activations only for large candidate groups",
+      "tracked_markdown_count": 395,
+      "origin_kind": "local_bundle",
+      "tracked_changes": []
+    },
+    {
+      "directory": "bindref_qwen4b_grpo_dual",
+      "head": "2689ce714a0bcf73015ba12a09537c0280e3d572",
+      "head_subject": "Add mixed GRPO reward and attention-supervised GRPO for Qwen4B",
+      "tracked_markdown_count": 656,
+      "origin_kind": "local_bundle",
+      "tracked_changes": []
+    },
+    {
+      "directory": "bindref_qwen8b_resume",
+      "head": "65878e1da53ea096cf1fae4ca90624ccdce01a98",
+      "head_subject": "support saved-adapter continuation with routing losses and original data position",
+      "tracked_markdown_count": 628,
+      "origin_kind": "local_bundle",
+      "tracked_changes": []
+    },
+    {
+      "directory": "bindref_qwen8b_resume_baseline",
+      "head": "9e29f7edf314cc7d635c52d2c28f4d7b5b299379",
+      "head_subject": "Add candidate attention gate trainer",
+      "tracked_markdown_count": 422,
+      "origin_kind": "local_bundle",
+      "tracked_changes": []
+    },
+    {
+      "directory": "bindref_rsim_20260928",
+      "head": "32b8977eca4f8ac0d6454b034fb4f759bf29b8fb",
+      "head_subject": "Add matched intervention Yes No SSI diagnostics and smoke queues",
+      "tracked_markdown_count": 332,
+      "origin_kind": "local_bundle",
+      "tracked_changes": []
+    },
+    {
+      "directory": "bindref_stage2_cue_baseline",
+      "head": "843eb5205b4fff973d4c7a40eb4174d9a38a44bd",
+      "head_subject": "Treat non-object selection responses as invalid instead of crashing validation",
+      "tracked_markdown_count": 395,
+      "origin_kind": "local_bundle",
+      "tracked_changes": []
+    },
+    {
+      "directory": "bindref_stage2_cue_grpo",
+      "head": "c7160f5cab8f732433e36131f28424bf5842b54c",
+      "head_subject": "Package exact installed GRPO runtime dependencies for offline transfer",
+      "tracked_markdown_count": 700,
+      "origin_kind": "local_bundle",
+      "tracked_changes": []
+    },
+    {
+      "directory": "bindref_stage2_dynamic",
+      "head": "98d570c420d99650a1be908340739a38d18afd98",
+      "head_subject": "Diagnose Stage2 cue-conditioned answer-to-candidate attention",
+      "tracked_markdown_count": 650,
+      "origin_kind": "local_bundle",
+      "tracked_changes": []
+    },
+    {
+      "directory": "sam2_oneref",
+      "head": "0a914a1ade5649efa469fb7ac2f4c3c141da2f7b",
+      "head_subject": "Parse MMDetection epoch progress in monitor",
+      "tracked_markdown_count": 18,
+      "origin_kind": "github",
+      "tracked_changes": [
+        "M sam2_oneref/__pycache__/__init__.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/common.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/joint_train.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/oneref_stage.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/sam2_prompt_segmenter.cpython-311.pyc"
+      ]
+    },
+    {
+      "directory": "sam2_oneref_8bd9ac9_20260712_40831_eacs",
+      "head": "8bd9ac9f2f65137cfc42cf623317874c13c3bf37",
+      "head_subject": "Archive best delayed weak EACS guard mode",
+      "tracked_markdown_count": 16,
+      "origin_kind": "github",
+      "tracked_changes": [
+        "M sam2_oneref/__pycache__/__init__.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/common.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/joint_train.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/oneref_stage.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/sam2_prompt_segmenter.cpython-311.pyc"
+      ]
+    },
+    {
+      "directory": "sam2_oneref_ept_base",
+      "head": "4aa094946175d454cd06acc9ffe3da559d681f59",
+      "head_subject": "Archive 408-10 RefCOCOg 77 result",
+      "tracked_markdown_count": 16,
+      "origin_kind": "github",
+      "tracked_changes": [
+        "M sam2_oneref/__pycache__/__init__.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/common.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/joint_train.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/oneref_stage.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/sam2_prompt_segmenter.cpython-311.pyc"
+      ]
+    },
+    {
+      "directory": "sam2_oneref_internvl_ablation_1331112",
+      "head": "133111234e4e0e154d5a19b8a0b256ceca8859fd",
+      "head_subject": "Add InternVL online critic server",
+      "tracked_markdown_count": 15,
+      "origin_kind": "github",
+      "tracked_changes": [
+        "M sam2_oneref/__pycache__/__init__.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/common.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/joint_train.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/oneref_stage.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/sam2_prompt_segmenter.cpython-311.pyc"
+      ]
+    },
+    {
+      "directory": "sam2_oneref_lcar_structure_4d8545d",
+      "head": "4d8545decd93953b769f460adf0e4a412a49407a",
+      "head_subject": "Add L-CAR structure ablation runs",
+      "tracked_markdown_count": 15,
+      "origin_kind": "github",
+      "tracked_changes": [
+        "M sam2_oneref/__pycache__/__init__.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/common.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/joint_train.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/oneref_stage.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/sam2_prompt_segmenter.cpython-311.pyc"
+      ]
+    },
+    {
+      "directory": "sam2_oneref_repro_40810_2d95ed9_20260713",
+      "head": "2d95ed9fdba879f89a61f628f49bca5c4c34801e",
+      "head_subject": "Add SAM2 teacher point distillation modes",
+      "tracked_markdown_count": 16,
+      "origin_kind": "github",
+      "tracked_changes": [
+        "M sam2_oneref/__pycache__/__init__.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/common.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/joint_train.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/oneref_stage.cpython-311.pyc",
+        " M sam2_oneref/__pycache__/sam2_prompt_segmenter.cpython-311.pyc"
+      ]
+    }
+  ],
+  "reviewed_sources": [
+    {
+      "path": "bindref/README.md",
+      "bytes": 3531,
+      "sha256": "065ec7e6ba602a306b5f5f55e55e9a5b6f9de88c47ec0ea55367ec72ce95c8dc"
+    },
+    {
+      "path": "bindref/AGENTS.md",
+      "bytes": 3861,
+      "sha256": "5b7779019188df081fad45011106ec9b773dcd3ed1a8ea2fec096d925e5a9cba"
+    },
+    {
+      "path": "bindref/docs/RESEARCH_SCOPE_KO.md",
+      "bytes": 2439,
+      "sha256": "01f345c11ce89e024cdf138877f5c82fdeb97099b7751371bcf143f94d580657"
+    },
+    {
+      "path": "bindref_stage2_cue_grpo/docs/experiments/CURRENT_EXPERIMENTS.md",
+      "bytes": 3753,
+      "sha256": "ced9cb7738a2c633f834dfa2749d5aabe5053aef77d58a2bf7c7526a48ac31ec"
+    },
+    {
+      "path": "bindref_stage2_cue_grpo/docs/research/ideation/TOP_DOWN_STATUS_20261007_KO.md",
+      "bytes": 16406,
+      "sha256": "4f5015593f3449e753bd30fe891f4d544ed50637cfa4c33959d0d629249cb461"
+    },
+    {
+      "path": "bindref_stage2_cue_grpo/docs/research/parietal_binding/SSI_INDEPENDENT_YESNO_DEFINITION_RESULTS_KO.md",
+      "bytes": 12381,
+      "sha256": "b4c77ef4624b78ea2186772c87b68a806f096502692e6f752392b3a8c90773cd"
+    },
+    {
+      "path": "bindref_stage2_cue_grpo/notes/experiment_runs/20261010_stage2_cue_pool_coverage.md",
+      "bytes": 2351,
+      "sha256": "41753f658e8f274a1ea7d8740d7abdcd591dab38165709c141a19303602156b8"
+    },
+    {
+      "path": "bindref_stage2_cue_grpo/notes/experiment_runs/20261010_40816_qwen4b_grpo_adaptive_e1.md",
+      "bytes": 2824,
+      "sha256": "67677da37c43005e2495435c7c60da8a6bf291ad897508cdb038491d84fdc473"
+    },
+    {
+      "path": "sam2_oneref/EXPERIMENTS.md",
+      "bytes": 3721,
+      "sha256": "d8bfe3344f9ebee5ded94655fb1511b61179417122f4804d5bc9fbccbbe126ee"
+    },
+    {
+      "path": "sam2_oneref/notes/experiment_results.md",
+      "bytes": 11734,
+      "sha256": "ef60ea1f1805357dcb0a4e4266c162aab37fee65c7fa4e140cf1d22e7239696b"
+    },
+    {
+      "path": "sam2_oneref_ept_base/EXPERIMENT_RESULTS.md",
+      "bytes": 4398,
+      "sha256": "8988d248396aed14a4cfd4e3dc0a582be7110de6486adf3fed7163bb2073f5c0"
+    },
+    {
+      "path": "sam2_oneref_ept_base/saved_results/refcocog_77_4083_safe_neg_mask_prior_20260609/summary.md",
+      "bytes": 1291,
+      "sha256": "e36cf56c1f820788e27ec5b453f4439b2de46af3f5425ede86ff38d5e653ae42"
+    },
+    {
+      "path": "track2/README.md",
+      "bytes": 1696,
+      "sha256": "07b3f12d8c8a851aec3d5b960d8c1071b2cd097c6c08f939b09fe90c0d0a3580"
+    },
+    {
+      "path": "track2/docs/architecture.md",
+      "bytes": 1527,
+      "sha256": "3000badf5d66abde5e447aa06c5dec4d4e2eeb9412bce46ea3c0bf0e3d3876a5"
+    },
+    {
+      "path": "bindref_attention_runtime_20261011/scripts/watch_attention_then_grpo.py",
+      "bytes": 3967,
+      "sha256": "5cef9d7369df0ce15c4a049b2460cb16e0210d9f314a023a174078b3b2484159"
+    },
+    {
+      "path": "bindref_attention_runtime_20261011/notes/experiment_runs/20261011_user_qwen4b_stage2_grpo_combined_e1.md",
+      "bytes": 4953,
+      "sha256": "151667ff2d1d34eceda5313b72f34f7722d484e42ce5bb90596be190952bd370"
+    },
+    {
+      "path": "bindref_attention_runtime_20261011/notes/experiment_runs/20261011_40897_qwen4b_stage2_grpo_pool_e1.md",
+      "bytes": 4828,
+      "sha256": "9f7e3d69272c273d0424e5856f09981c3778a2ffd9e33758095b3422d5b1aab6"
+    },
+    {
+      "path": "bindref_attention_runtime_20261011/notes/experiment_runs/20261011_40831_qwen4b_stage2_grpo_reward_e1.md",
+      "bytes": 4374,
+      "sha256": "4708a7528b5434b5479aacc6edb2a7b11c294f93ba3a74631155fea6a47cea3e"
+    },
+    {
+      "path": "qwen_other_target_identity_crop_fullval_20260818/results_qwen30b/summary.json",
+      "bytes": 1627,
+      "sha256": "13116e58e4c11257e07fa593b95eb984eb8d2803f9786a31cba9a813409f699d"
+    },
+    {
+      "path": "qwen_other_target_identity_fullval_20260818/results_qwen30b/summary.json",
+      "bytes": 1686,
+      "sha256": "e770add085586055d9f219e9a1e6923ed49567937c9385dd4384cb276ce95915"
+    },
+    {
+      "path": "qwen_other_target_identity_multiview_fullval_20260818/results_qwen32b/summary.json",
+      "bytes": 1632,
+      "sha256": "49f3df5128b22f7b08d5634459948ae9d56c3475ed1c53f37882880f62b9de5c"
+    },
+    {
+      "path": "qwen_other_target_identity_multiview_fullval_20260818/results_qwen32b_multiview_conservative_val_20260819/summary.json",
+      "bytes": 1793,
+      "sha256": "ec711abc76189a09344a494a67b667f5c0b0215b4eb3693bb036cf7825cd3202"
+    },
+    {
+      "path": "qwen_other_target_identity_multiview_fullval_20260818/results_qwen32b_smoke/summary.json",
+      "bytes": 1468,
+      "sha256": "b9f562da25ab252b1dc2a252bbc399f2282857c2978a38c8b4b5d07351b097c6"
+    },
+    {
+      "path": "track2/outputs/mevisv2_track2_exist_balanced_b2_side768_20260718_154825/metric.json",
+      "bytes": 12184,
+      "sha256": "2873c6fe562c3621b60a378812f34d2b377d4fda6174865226c9d1b7e70db170"
+    },
+    {
+      "path": "track2/outputs/mevisv2_track2_exist_balanced_b2_side768_20260718_154825/train_args.json",
+      "bytes": 3515,
+      "sha256": "872e2726da30c1233d23ef6fe287f431a1d239dc9e97c4b688a4b546e1cd9a9a"
+    }
+  ],
+  "identity_detection_aggregates": [
+    {
+      "source": "qwen_other_target_identity_crop_fullval_20260818/results_qwen30b/summary.json",
+      "model": "Qwen3-VL-30B-A3B-Instruct-Q4_K_M",
+      "scope": "normal vs other_ref + other_unref_ann; other_unann excluded",
+      "n": 4860,
+      "confusion": {
+        "tp": 118,
+        "fp": 374,
+        "tn": 4032,
+        "fn": 336
+      },
+      "accuracy": 0.8539094650205762,
+      "precision": 0.23983739837398374,
+      "recall": 0.2599118942731278,
+      "false_positive_rate": 0.0848842487517022,
+      "balanced_accuracy": 0.5875138227607128,
+      "f1": 0.24947145877378435,
+      "format_compliance_rate": 1.0
+    },
+    {
+      "source": "qwen_other_target_identity_fullval_20260818/results_qwen30b/summary.json",
+      "model": "Qwen3-VL-30B-A3B-Instruct-Q4_K_M",
+      "scope": "normal vs other_ref + other_unref_ann; other_unann excluded",
+      "n": 4860,
+      "confusion": {
+        "tp": 111,
+        "fp": 434,
+        "tn": 3972,
+        "fn": 343
+      },
+      "accuracy": 0.8401234567901235,
+      "precision": 0.2036697247706422,
+      "recall": 0.2444933920704846,
+      "false_positive_rate": 0.09850204266908757,
+      "balanced_accuracy": 0.5729956747006986,
+      "f1": 0.2222222222222222,
+      "format_compliance_rate": 1.0
+    },
+    {
+      "source": "qwen_other_target_identity_multiview_fullval_20260818/results_qwen32b/summary.json",
+      "model": "Qwen3-VL-32B-Instruct-Q4_K_M",
+      "scope": "normal vs other_ref + other_unref_ann; other_unann excluded",
+      "n": 4860,
+      "confusion": {
+        "tp": 298,
+        "fp": 690,
+        "tn": 3716,
+        "fn": 156
+      },
+      "accuracy": 0.825925925925926,
+      "precision": 0.3016194331983806,
+      "recall": 0.6563876651982379,
+      "false_positive_rate": 0.15660463004993186,
+      "balanced_accuracy": 0.749891517574153,
+      "f1": 0.4133148404993065,
+      "format_compliance_rate": 1.0
+    },
+    {
+      "source": "qwen_other_target_identity_multiview_fullval_20260818/results_qwen32b_multiview_conservative_val_20260819/summary.json",
+      "model": "Qwen3-VL-32B-Instruct-Q4_K_M",
+      "scope": "normal vs other_ref + other_unref_ann; other_unann excluded",
+      "n": 4860,
+      "confusion": {
+        "tp": 192,
+        "fp": 516,
+        "tn": 3890,
+        "fn": 262
+      },
+      "accuracy": 0.839917695473251,
+      "precision": 0.2711864406779661,
+      "recall": 0.42290748898678415,
+      "false_positive_rate": 0.11711302768951426,
+      "balanced_accuracy": 0.6528972306486349,
+      "f1": 0.3304647160068847,
+      "format_compliance_rate": 0.9991769547325103
+    }
+  ],
+  "track2_aggregate": {
+    "source": "track2/outputs/mevisv2_track2_exist_balanced_b2_side768_20260718_154825/metric.json",
+    "settings": {
+      "train_split": "train",
+      "val_split": "valid_u",
+      "frame_stride": 5,
+      "max_image_side": 768,
+      "max_val_samples": 1024,
+      "val_no_target_samples": 256,
+      "iou_oracle_weight": 0.0
+    },
+    "records": [
+      {
+        "epoch": 0,
+        "val": {
+          "metric_track2_j": 0.5475313259397172,
+          "metric_track2_f": 0.2595730369604487,
+          "metric_track2_t_acc": 0.9609375,
+          "metric_track2_n_acc": 0.359375,
+          "metric_track2_j_and_f": 0.403552181450083,
+          "metric_track2_final": 0.574621560483361
+        },
+        "best_val": 0.574621560483361,
+        "best_epoch": 0
+      },
+      {
+        "epoch": 1,
+        "val": {
+          "metric_track2_j": 0.5347675057148017,
+          "metric_track2_f": 0.252003146105181,
+          "metric_track2_t_acc": 0.9440104166666666,
+          "metric_track2_n_acc": 0.37890625,
+          "metric_track2_j_and_f": 0.3933853259099913,
+          "metric_track2_final": 0.5721006641922193
+        },
+        "best_val": 0.574621560483361,
+        "best_epoch": 0
+      },
+      {
+        "epoch": 2,
+        "val": {
+          "metric_track2_j": 0.5243005993957014,
+          "metric_track2_f": 0.2488501801978578,
+          "metric_track2_t_acc": 0.9440104166666666,
+          "metric_track2_n_acc": 0.3828125,
+          "metric_track2_j_and_f": 0.3865753897967796,
+          "metric_track2_final": 0.5711327688211488
+        },
+        "best_val": 0.574621560483361,
+        "best_epoch": 0
+      },
+      {
+        "epoch": 3,
+        "val": {
+          "metric_track2_j": 0.5245050403875087,
+          "metric_track2_f": 0.24805833808753597,
+          "metric_track2_t_acc": 0.9609375,
+          "metric_track2_n_acc": 0.30078125,
+          "metric_track2_j_and_f": 0.3862816892375223,
+          "metric_track2_final": 0.5493334797458408
+        },
+        "best_val": 0.574621560483361,
+        "best_epoch": 0
+      },
+      {
+        "epoch": 4,
+        "val": {
+          "metric_track2_j": 0.5233491260606072,
+          "metric_track2_f": 0.25169099731289185,
+          "metric_track2_t_acc": 0.953125,
+          "metric_track2_n_acc": 0.33984375,
+          "metric_track2_j_and_f": 0.3875200616867496,
+          "metric_track2_final": 0.5601629372289165
+        },
+        "best_val": 0.574621560483361,
+        "best_epoch": 0
+      }
+    ]
+  },
+  "excluded_artifacts": [
+    "datasets",
+    "images",
+    "weights",
+    "raw_responses",
+    "large_logs",
+    "virtual_environments",
+    "compressed_archives",
+    "credentials"
+  ]
+}

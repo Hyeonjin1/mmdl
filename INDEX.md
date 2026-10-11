@@ -1,5 +1,9 @@
 # MMDL experiment reports
 
+## Music workspace research summary
+
+[Music 작업물 핵심 정리 (2026-10-11)](docs/music/WORK_SUMMARY_20261011_KO.md) — BindRef, OneRef+SAM2, other-target 판별, Track2의 주요 결과·진단·실행 상태. [출처와 집계 지표](docs/music/SOURCE_INVENTORY.json). 기존 P03/P04 실험과 별도로 정리했습니다.
+
 Sanitized experiment summaries. Saved-response rescoring and training effects are separate.
 
 | Run | Stage | Status | Updates |
