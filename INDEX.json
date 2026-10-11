@@ -1,6 +1,6 @@
 {
   "repository": "Hyeonjin1/mmdl",
-  "scope": "P03 pipeline validation; no improvement claim",
+  "scope": "P03 pipeline checks and P04 data/evaluation records; no improvement claim",
   "runs": [
     {
       "run_id": "P03_20261008T075815Z_gpu_cleanup",
@@ -50,6 +50,20 @@
       "status": "completed",
       "optimizer_steps": 0,
       "report": "runs/P03_20261009T081238Z_selftest/experiment.md"
+    },
+    {
+      "run_id": "P04_20261011T033804Z_latest_vllm_B0_v2",
+      "stage": "latest_vllm_B0",
+      "status": "completed",
+      "optimizer_steps": 0,
+      "report": "runs/P04_20261011T033804Z_latest_vllm_B0_v2/experiment.md"
+    },
+    {
+      "run_id": "P04_20261011T034011Z_validate_E1_E2_cpu",
+      "stage": "validate_E1_E2_cpu",
+      "status": "completed",
+      "optimizer_steps": 0,
+      "report": "runs/P04_20261011T034011Z_validate_E1_E2_cpu/experiment.md"
     }
   ]
 }

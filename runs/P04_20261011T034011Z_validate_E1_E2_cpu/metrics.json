@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "optimizer_steps": 0,
+  "max_total_tokens": 995,
+  "min_supervised_tokens": 2,
+  "wall_seconds": 28.61233687598724,
+  "ended_utc": "2026-10-11T03:40:40.901287+00:00",
+  "unique_rows_checked": 1700,
+  "E1_rows": 1000,
+  "E2_rows": 1000,
+  "heldout_rows": 200,
+  "all_assistant_masks_verified": true,
+  "truncation": false,
+  "real_padding": false,
+  "gpu_forward_backward_verified": false,
+  "MMMU_image_overlap_verified": false,
+  "E3_required": false,
+  "ready_for_training": false
+}
