@@ -23,3 +23,7 @@ runs/**/responses.jsonl
 runs/**/rescored.jsonl
 configs/P04/candidates.json
 configs/P04/download_requests.json
+
+# Current-host private restoration runtime and full run artifacts
+.restore/
+runs/P04_20261011T*restore*/

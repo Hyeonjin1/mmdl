@@ -33,7 +33,7 @@ def envcheck(cfg,run):
     mapper=Qwen3VLForConditionalGeneration.hf_to_vllm_mapper
     # Test real vLLM utility on every actual language LoRA name from successful P03, not guessed module suffixes.
     from safetensors import safe_open
-    adapter=ROOT/'runs/P03_20261008T075816Z_train_bf16/adapter/adapter_model.safetensors'
+    adapter=Path(cfg['adapter_path'])/'adapter_model.safetensors' if cfg.get('adapter_path') else ROOT/'runs/P03_20261008T075816Z_train_bf16/adapter/adapter_model.safetensors'
     mapped=[]
     if not adapter.exists():raise Blocked('P03 adapter required for real saved-name compatibility check')
     with safe_open(str(adapter),framework='pt',device='cpu') as f:
@@ -93,12 +93,14 @@ def evaluation_samples(cfg,protocol,source,manifest_path,manifest_rows):
         samples.append({'id':old['question_id'],'dataset':'MMMU','subject':ann['category'],'question_type':ann['question_type'],
           'gold':ann['answer'],'options':{k:ann[k] for k in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' if k in ann},'messages':messages,
           'expected_input_tokens':old['input_tokens'],'image_hashes':ann['image_sha256']})
-    for dataset in ['ChartQA','TabMWP']:
+    check_datasets=cfg.get('check_datasets',['ChartQA','TabMWP'])
+    for dataset in check_datasets:
         for row in rows(Path(cfg['processed_dir'])/(dataset+'_check.jsonl')):
             if sha(Path(row['image']))!=row['image_sha256']:raise Blocked('Heldout image changed:'+row['id'])
             messages=[{'role':'user','content':[{'type':'image','image':row['image'],'min_pixels':1003520,'max_pixels':4014080},
                         {'type':'text','text':'Question: '+row['question']+protocol['prompt_protocol']['cot_suffix']}]}]
-            samples.append({'id':row['id'],'dataset':dataset,'subject':dataset,'question_type':'open','gold':row['answer'],'options':{},
+            options={chr(65+i):v for i,v in enumerate(row.get('options',[]))}
+            samples.append({'id':row['id'],'dataset':dataset,'subject':dataset,'question_type':'multiple-choice' if options else 'open','gold':row['answer'],'options':options,
               'messages':messages,'expected_input_tokens':None,'image_hashes':[row['image_sha256']]})
     if cfg.get('smoke'):
         mmmu=[r for r in samples if r['dataset']=='MMMU'];selection=[];seen=set()
@@ -108,7 +110,7 @@ def evaluation_samples(cfg,protocol,source,manifest_path,manifest_rows):
             for row in pool:
                 if row['id'] not in seen:selection.append(row);seen.add(row['id']);count+=1
                 if count==(2 if pool is not mmmu else 8):break
-        for dataset in ['ChartQA','TabMWP']:selection.extend([r for r in samples if r['dataset']==dataset][:2])
+        for dataset in check_datasets:selection.extend([r for r in samples if r['dataset']==dataset][:2])
         samples=selection
     return samples
 
@@ -128,7 +130,8 @@ def evaluate(cfg,run):
     for name,expected in protocol['checkpoint_contract']['guard_code_sha256'].items():
         if sha(SOURCE/name)!=expected:raise Blocked('Historical repetition guard source differs')
     _,prepare=pinned_functions({'pd':pd,'process_vision_info':process_vision_info})
-    model_path=snapshot_download(cfg['model_id'],revision=cfg['model_revision'],local_files_only=True)
+    from learning import snapshot_path
+    model_path=snapshot_path(cfg)
     processor=AutoProcessor.from_pretrained(model_path,local_files_only=True)
     samples=evaluation_samples(cfg,protocol,source,mpath,mrows)
     engine_args=dict(protocol['engine_args']);engine_args['model']=model_path
@@ -205,7 +208,7 @@ def evaluate(cfg,run):
     if len(results)!=len(samples):raise Blocked('Evaluation incomplete; denominator cannot shrink')
     mmmu=[r for r in results if r['dataset']=='MMMU'];fields=['id','subject','question_type','extracted_answer','correct','extraction_method','finish_reason','input_tokens','output_tokens']
     (run/'public_predictions.jsonl').write_text(''.join(json.dumps({k:r[k] for k in fields},ensure_ascii=False)+'\n' for r in mmmu))
-    scores={dataset:aggregate([r for r in results if r['dataset']==dataset]) for dataset in ['ChartQA','TabMWP']}
+    scores={dataset:aggregate([r for r in results if r['dataset']==dataset]) for dataset in cfg.get('check_datasets',['ChartQA','TabMWP'])}
     save(run/'dataset_scores.json',scores)
     return {'MMMU_count':len(mmmu),'generation_count':len(results),'adapter_reload_verified':True,'reload_verified':True,
       'original_model_inference_requests':0,'B0_protocol_sha256':sha(b0run/'evaluation_protocol.json'),'overall':aggregate(mmmu),

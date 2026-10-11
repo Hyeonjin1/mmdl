@@ -9,6 +9,13 @@ import time
 from common import Blocked, read_manifest, require_gpu, save, sha
 
 def snapshot_path(cfg):
+    if cfg.get('model_path'):
+        path=Path(cfg['model_path'])
+        if not (path/'config.json').is_file():raise Blocked('Explicit pinned model directory missing config.json')
+        manifest=path/'processor_manifest.json'
+        if not manifest.is_file() or json.loads(manifest.read_text())['revision']!=cfg['model_revision']:
+            raise Blocked('Explicit model/processor revision manifest missing or mismatched')
+        return str(path)
     from huggingface_hub import snapshot_download
     return snapshot_download(repo_id=cfg["model_id"],revision=cfg["model_revision"],local_files_only=True)
 
