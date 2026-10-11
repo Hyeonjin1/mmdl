@@ -1,0 +1,41 @@
+{
+  "commit": "0c0b415f6f93923a4249d3da32c5cbb447a518ea",
+  "files": [
+    {
+      "path": "results/validation900_cot8192_guard_full/predictions.jsonl",
+      "git_blob": "616c8785b92d6eb61df5a5c97622a69b13a4cddc"
+    },
+    {
+      "path": "results/validation900_cot8192_guard_full/run_config.json",
+      "git_blob": "d092b491ff1f08ac6c00241f2d8034b9f452bb9a"
+    },
+    {
+      "path": "results/validation900_cot8192_guard_full/summary.json",
+      "git_blob": "bf2b312203894556f4e45e3d1ccc5a2f16115892"
+    },
+    {
+      "path": "results/validation900_rules_v1/judgments.jsonl",
+      "git_blob": "64050a4d9fef50f8263a4f3254fac1328204181d"
+    },
+    {
+      "path": "results/validation900_rules_v1/run_config.json",
+      "git_blob": "8e827e543908ea58fc5a27619e9c08387d033af0"
+    },
+    {
+      "path": "results/validation900_rules_v1/summary.json",
+      "git_blob": "43c1b3ec1b670a96eb08070131b16552d335f9bf"
+    },
+    {
+      "path": "code/MMDL-official-vllm/upstream/evaluation/mmmu/run_mmmu.py",
+      "git_blob": "c18f08ac9d085d92c940ab471ac5790b06a9dee6"
+    },
+    {
+      "path": "code/MMDL-official-vllm/upstream/evaluation/mmmu/dataset_utils.py",
+      "git_blob": "8e61b5494b5c89103bd80fd666b40f831e65ac8b"
+    },
+    {
+      "path": "code/MMDL-official-vllm/upstream/evaluation/mmmu/common_utils.py",
+      "git_blob": "0be5927517013c6c7edd49df30d55d501c2ee6f2"
+    }
+  ]
+}
