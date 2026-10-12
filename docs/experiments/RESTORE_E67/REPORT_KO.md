@@ -119,7 +119,7 @@ E4/E5 학습률은 수정하지 않았다(E4 2e-5, E5 1e-4). E67 LR2e-5는 E5 �
 ## 대응 해석·한계
 
 E6-B↔E6-A: 새 정답16개·새 오답43개, 정답 변화-27개(-3.00pp). 동일 총문항/update/LR/target-template에서 data mixture 효과를 본다. 새 오답43개 중18개는 unrecognized_choice 추출 실패,25개는 명시 오답이다. 출력 표본에서 일부는 통화 표지/정확한 option text를 생략했고 다른 일부는 숫자 자체도 달랐다.18개를 모두 순수 formatting 오류나 실제 정답이라고 재해석하지 않았고 채점도 변경하지 않았다.
-E7↔B0: {'total': 900, 'new_correct': 119, 'new_incorrect': 128, 'net_correct': -9, 'delta_pp': -1.0, 'same_correct': 363, 'same_incorrect': 290}. 공간 source 개선은 CAD100점검으로 확인하되 기존900의 공간유형 효과라고 동일시하지 않는다. 다른 과목의 새 오답/성능손실도 같은 판정으로 비교한다.
+E7↔B0: 새 정답119개·새 오답128개로 정답9개 감소(-1.00pp)했다. Fusion360 점검은66/100에서83/100으로17개 개선됐으나, MMMU 전체는 개선되지 않았다. 공간 source 개선을 기존900의 공간유형 효과라고 동일시하지 않는다. 다른 과목의 새 오답/성능손실도 같은 판정으로 비교한다.
 
 단일 seed 개발 비교, E7은445개로 다른1000문항 실험과 exposure가 다르다. 과학 계산 문항이26개뿐이며 genetics probability/ratio에 치우쳤다. 선택/중복 제거는 규칙과hash/perceptual screen 기반이며 의미적 중복·모든 사고과정 타당성·모든CAD지각동등성을 전수검증하지 않았다. 동적 LoRA backend도 원본과 비트 단위 동일성을 보장하지 않는다.
 
