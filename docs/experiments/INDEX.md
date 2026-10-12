@@ -23,3 +23,7 @@
 ## Current-host E6 science diagrams and E7 CAD correspondence
 
 [실제 완료 범위·비교 보고서](RESTORE_E67/REPORT_KO.md) · [지표/검증/hash](RESTORE_E67/metrics.json) · [재현 설정](RESTORE_E67/settings.json) · [공개 문항별 판정](RESTORE_E67/question_decisions.csv)
+
+## Retention exploration: learning rate, official solutions and spatial mixture
+
+[완료 범위·비교 보고서](RESTORE_RETENTION_v1/REPORT_KO.md) · [지표/검증/hash](RESTORE_RETENTION_v1/metrics.json) · [재현 설정](RESTORE_RETENTION_v1/settings.json) · [공개 문항별 판정](RESTORE_RETENTION_v1/question_decisions.csv)
