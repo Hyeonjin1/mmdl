@@ -1,0 +1,106 @@
+{
+  "version": "PrIMuS_QA_v1",
+  "created_at_utc": "2026-10-12T02:03:14.679328+00:00",
+  "script_sha256": "1536f37c2b1dd31bc5083ce8755346d235510fa60adb28cbd9825fb670a79a1f",
+  "seed": 3407,
+  "source_archive_sha256": "fbc8dd5a20fa12d8b9c26b549f3bff1ce7c034ec740bb40ba50fc14d238f486f",
+  "original_annotations": 87678,
+  "retained_incipits": 87673,
+  "rejected": 5,
+  "generated_qa_count": 350691,
+  "official_qa": false,
+  "official_split": false,
+  "grouping": "Connected components of filename prefix before first hyphen, exact normalized semantic content, and exact PNG hash",
+  "mei_sample_checks": {
+    "letter_octave_clef": 256,
+    "duration": 256
+  },
+  "files": {
+    "train": {
+      "path": "/home/user/mmdl-work/datasets/processed/PrIMuS_QA_v1/train.jsonl",
+      "count": 281155,
+      "size_bytes": 356304983,
+      "sha256": "a9557f6a8d0f4bc61661aab1e0f1499c31a8b0a608c6b69c8c777b8dc0cd59dd",
+      "tasks": {
+        "first_note_pitch": 70289,
+        "first_note_duration": 70289,
+        "initial_clef": 70289,
+        "first_two_note_interval": 70288
+      },
+      "answer_letters": {
+        "C": 70572,
+        "A": 70413,
+        "D": 70366,
+        "B": 69804
+      },
+      "connected_groups": 46753
+    },
+    "val": {
+      "path": "/home/user/mmdl-work/datasets/processed/PrIMuS_QA_v1/val.jsonl",
+      "count": 36044,
+      "size_bytes": 45605615,
+      "sha256": "10463627663b33343497990c8e02ae8efa42bda840031c92df8e26a4e3bb303f",
+      "tasks": {
+        "first_note_pitch": 9011,
+        "first_note_duration": 9011,
+        "initial_clef": 9011,
+        "first_two_note_interval": 9011
+      },
+      "answer_letters": {
+        "C": 9035,
+        "D": 9030,
+        "A": 9032,
+        "B": 8947
+      },
+      "connected_groups": 5885
+    },
+    "test": {
+      "path": "/home/user/mmdl-work/datasets/processed/PrIMuS_QA_v1/test.jsonl",
+      "count": 33492,
+      "size_bytes": 42408092,
+      "sha256": "4803db073f5bbc7ab7dc79b8b6c42e2385c36fc81fe7922ebcdd33b6f7e1ef1a",
+      "tasks": {
+        "first_note_pitch": 8373,
+        "first_note_duration": 8373,
+        "initial_clef": 8373,
+        "first_two_note_interval": 8373
+      },
+      "answer_letters": {
+        "A": 8288,
+        "D": 8597,
+        "C": 8380,
+        "B": 8227
+      },
+      "connected_groups": 5774
+    }
+  },
+  "limitations": [
+    "No chord QA; source is monophonic",
+    "Synthetic template QA, not human-authored QA",
+    "First notes and initial clef only; whole-score understanding untested",
+    "Interval uses equal-tempered chromatic semitones, not interval quality",
+    "Written duration only; no tempo, fermata length, tied total, or tuplet timing inference",
+    "Work groups inferred from source filenames; near-duplicate/transposed melodies not exhaustively detected",
+    "MEI sample checks cover letter, octave, clef and duration; accidental/key-signature semantics inherited from semantic source",
+    "Row schema matches MMDL MCQ fields; E8 training config/runner integration is not performed"
+  ],
+  "training_started": false,
+  "validation": {
+    "checked_qa": 350691,
+    "unique_ids": true,
+    "four_distinct_options": true,
+    "answer_option_consistent": true,
+    "answer_derivation_tokens_not_in_prompt": true,
+    "work_image_semantic_group_split_overlap": 0,
+    "file_sha256_matches_manifest": true,
+    "mei_independent_sample": {
+      "letter_octave_clef": 256,
+      "duration": 256
+    },
+    "human_visual_spot_check_incipits": 1,
+    "training_started": false
+  },
+  "rejection_reasons": {
+    "No non-grace note": 5
+  }
+}
