@@ -15,3 +15,7 @@
 ## Current-host completed E1/E2/E3
 
 [최종 비교 브리핑](RESTORE_E123/FINAL_BRIEF_KO.md) · [Detailed report](RESTORE_E123/REPORT.md) · [조건/데이터 revision](RESTORE_E123/config.json) · [과목별 metrics](RESTORE_E123/metrics.json)
+
+## Current-host paired E4/E5
+
+[RESTORE_E45 최종 비교 보고서](RESTORE_E45/REPORT_KO.md) · [전체/대응/과목별 지표와 hash](RESTORE_E45/metrics.json) · [공개 문항별 판정](RESTORE_E45/question_decisions.csv) · [사전 고정 출력 표본 검토](RESTORE_E45/output_sample_review.json)
