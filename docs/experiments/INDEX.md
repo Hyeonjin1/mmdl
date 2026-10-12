@@ -19,3 +19,7 @@
 ## Current-host paired E4/E5
 
 [RESTORE_E45 최종 비교 보고서](RESTORE_E45/REPORT_KO.md) · [전체/대응/과목별 지표와 hash](RESTORE_E45/metrics.json) · [공개 문항별 판정](RESTORE_E45/question_decisions.csv) · [사전 고정 출력 표본 검토](RESTORE_E45/output_sample_review.json)
+
+## Current-host E6 science diagrams and E7 CAD correspondence
+
+[실제 완료 범위·비교 보고서](RESTORE_E67/REPORT_KO.md) · [지표/검증/hash](RESTORE_E67/metrics.json) · [재현 설정](RESTORE_E67/settings.json) · [공개 문항별 판정](RESTORE_E67/question_decisions.csv)
