@@ -27,3 +27,7 @@
 ## Retention exploration: learning rate, official solutions and spatial mixture
 
 [완료 범위·비교 보고서](RESTORE_RETENTION_v1/REPORT_KO.md) · [지표/검증/hash](RESTORE_RETENTION_v1/metrics.json) · [재현 설정](RESTORE_RETENTION_v1/settings.json) · [공개 문항별 판정](RESTORE_RETENTION_v1/question_decisions.csv)
+
+## L1/L2/L3: repetition, unique expansion and task mixture
+
+[완료 범위·비교 보고서](RESTORE_L123_v1/REPORT_KO.md) · [지표/검증/hash](RESTORE_L123_v1/metrics.json) · [재현 설정](RESTORE_L123_v1/settings.json) · [공개 문항별 판정](RESTORE_L123_v1/question_decisions.csv)
