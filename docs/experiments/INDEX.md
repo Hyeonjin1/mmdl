@@ -35,3 +35,7 @@
 ## Isolated diagnosis: finalization, perception and concept application
 
 [완료 범위·비교 보고서](RESTORE_DIAGNOSIS_v1/REPORT_KO.md) · [지표/검증/hash](RESTORE_DIAGNOSIS_v1/metrics.json) · [재현 설정](RESTORE_DIAGNOSIS_v1/settings.json) · [공개 문항별 판정](RESTORE_DIAGNOSIS_v1/question_decisions.csv)
+
+## Historical Judge + terminal-rule rescoring of saved responses
+
+[전체·진단 혼합 채점 상태와 보고서](RESTORE_MIXED_ALL_v1/REPORT_KO.md) · [집계](RESTORE_MIXED_ALL_v1/metrics.json) · [공개 문항별 판정](RESTORE_MIXED_ALL_v1/question_decisions.csv)
