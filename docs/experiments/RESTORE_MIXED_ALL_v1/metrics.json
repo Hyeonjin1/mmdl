@@ -275,6 +275,10 @@
       "response_file_sha256": "ba6e76b123e3926ace02099b4be728f4669939892b5c82a3f5aaeaf883288481"
     }
   },
+  "controller_state": {
+    "status": "downloading",
+    "started_at": "2026-10-16T11:38:19.990258+09:00"
+  },
   "trusted_type_labels": null,
   "review_selection_rule": {
     "seed": 3407,
@@ -284,5 +288,19 @@
     "review_does_not_modify_scores": true
   },
   "input_contract_sha256": null,
-  "diagnostic_finalization_vs_own_phase1": {}
+  "sample_audit": {
+    "n": 0,
+    "categories": {},
+    "manual_semantic_review_complete": false,
+    "no_score_adjustment": true
+  },
+  "scoring_dependent_conclusions": [],
+  "diagnostic_finalization_vs_own_phase1": {},
+  "device_memory_monitor": {
+    "interval_seconds": 5,
+    "n_samples": 45,
+    "max_used_mib": 18,
+    "includes_display_and_all_device_processes": true,
+    "not_worker_allocator_peak": true
+  }
 }

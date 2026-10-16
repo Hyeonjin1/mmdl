@@ -70,4 +70,15 @@ L1 G1/G2는 G0와 첫 단계부터 달라진 사례가 있다는 기존 FINAL_AU
 
 [기준 보고서](https://github.com/eses0070/MMDL/blob/0c0b415f6f93923a4249d3da32c5cbb447a518ea/assignment/reports/mmmu_baseline_vllm_cot_rules.md) · [원본 채점 코드](https://github.com/eses0070/MMDL/tree/0c0b415f6f93923a4249d3da32c5cbb447a518ea/code/MMDL-official-vllm)
 
+## 역사적 B0 불일치 수동 검토
+
+사전 고정 hash 순서로 고른6건을 실제 저장 Student 출력과 Judge JSON으로 검토했다. 명시적 최종 선택지의 형식 회수2건, 단위 표현 동등성1건, 정밀도 차이 허용1건, MC Judge 스키마 위반 후 마지막 줄 규칙 실패1건, 재고·잘림으로 최종 확정이 불분명한 응답1건이다. 정밀도 차이 허용은 Judge의 완화 가능성이 있고, MC 스키마 위반은 형식상 올바른 답도 규칙에서 놓칠 수 있다. 어느 주 판정도 수정하지 않았다. 상세 ID와 관찰은 historical_manual_review.json에 있다. 이는 역사적 B0 기록 표본이며 새 Judge 배치 표본과 구분한다.
+
+## 채점 방식에 따른 결론 변화
+
+| 조건 | 비교군 | 공통 파서 정답 순변화 | 혼합 정답 순변화 | 방향 변화 |
+|---|---|---|---|---|
+
+불일치 표본 자동 감사 0건. 분류: {}. 이는 저장 텍스트의 마지막 답과 Judge 추출 키 비교 감사이며 사람의 전 사례 의미 검토를 대신하지 않는다. 중간 추론 오인 가능성 플래그는 확정 판정이 아니다. 표본의 주 점수는 수정하지 않았다. 상세는 discrepancy_samples.json에 있다.
+
 **전체 새 Judge 재채점은 아직 완료되지 않았다.** 내려받기·점검 또는 채점 진행 상태이며 확정 결과만 게시한다.
