@@ -46,5 +46,10 @@
     "diagnostic72:R1_CONTROL": "0833c77cb30e82e347412e6e9ff399d9c45f01626a4d297a283abcfdb0ac8459",
     "diagnostic72:R1_CHECK": "ba6e76b123e3926ace02099b4be728f4669939892b5c82a3f5aaeaf883288481"
   },
+  "annotation_question_choices_GT_validation": {
+    "all900_question_answer_type_options_identical_to_B0": true,
+    "audit_sha256": "7c0b63f4bb606df6ea1e9d0a939ef41960f20851856b143e8dfc1e8aadac192b",
+    "diagnostic_generation_provenance_verified": true
+  },
   "original_response_files_unchanged": true
 }
