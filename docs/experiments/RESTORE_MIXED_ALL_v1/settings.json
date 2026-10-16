@@ -1,4 +1,42 @@
 {
+  "wrapper_code_hashes": {
+    ".restore/mixed_all_v1/download_judge.py": "88cc15d851e84efece108b6d9ea296e4297e7edb5db3d67626b3c74c0db7e3d1",
+    ".restore/mixed_all_v1/judge.py": "1bd3fc48e4e0ddbe4083c87251e47a62c7af166e352dc68d3f3d763e1b8bf199",
+    ".restore/mixed_all_v1/launch.py": "1b4c4f627ea0041596e037272a87049bc8de7c9014fa24ae3c825cdd4301c24f",
+    ".restore/mixed_all_v1/launch.sh": "d0e0e4ab15b3560c8161935012929e5db2a5808206e25df3c152817f42dc32d2",
+    ".restore/mixed_all_v1/monitor.py": "ea53e54bd6041aa517a65148abb998ca1e02226b52ed1da96b030c91dffe7c74",
+    ".restore/mixed_all_v1/prefetch_remaining.py": "4102f5f2aebb2d06eee8afa713dbe2c42900f2cd67892ec0a04bc5b950315cd0",
+    ".restore/mixed_all_v1/prepare.py": "341c31ea0eb745f14d105c991a1efef17c433ca584afdf26d86376b56e410f8d",
+    ".restore/mixed_all_v1/publish.py": "816090508d6d661ccffe1a1be785fe2f05f685ea5aebb2fbec71c6e776505ab3",
+    ".restore/mixed_all_v1/report.py": "9a43bf825feb900f9dbcffbce13e98123a311f09b24f5c7a920c6019875239f4"
+  },
+  "new_Judge_runtime": {
+    "wrapper_sha256": "1bd3fc48e4e0ddbe4083c87251e47a62c7af166e352dc68d3f3d763e1b8bf199",
+    "wrapper_prepare_sha256": "341c31ea0eb745f14d105c991a1efef17c433ca584afdf26d86376b56e410f8d",
+    "annotation_validation_sha256": "7c0b63f4bb606df6ea1e9d0a939ef41960f20851856b143e8dfc1e8aadac192b",
+    "engine": {
+      "seed": 3407,
+      "tensor_parallel_size": 1,
+      "max_model_len": 32768,
+      "gpu_memory_utilization": 0.9,
+      "max_num_seqs": 1,
+      "enforce_eager": true
+    },
+    "sampling_explicit": {
+      "temperature": 0,
+      "max_tokens": 512
+    },
+    "sampling_seed": "historical_default_not_explicitly_overridden",
+    "environment": {
+      "torch": "2.9.0",
+      "vllm": "0.11.2",
+      "transformers": "4.57.1",
+      "huggingface-hub": "0.36.2"
+    },
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:27:36) [GCC 11.2.0]",
+    "driver": "535.274.02",
+    "gpu": "NVIDIA GeForce RTX 4090"
+  },
   "model": "Qwen/Qwen3-8B",
   "revision": "b968826d9c46dd6066d109eabc6255188de91218",
   "historical_code_commit": "0c0b415f6f93923a4249d3da32c5cbb447a518ea",
