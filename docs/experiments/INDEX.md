@@ -39,3 +39,7 @@
 ## Historical Judge + terminal-rule rescoring of saved responses
 
 [전체·진단 혼합 채점 상태와 보고서](RESTORE_MIXED_ALL_v1/REPORT_KO.md) · [집계](RESTORE_MIXED_ALL_v1/metrics.json) · [공개 문항별 판정](RESTORE_MIXED_ALL_v1/question_decisions.csv)
+
+## Mixed-scoring mechanism audit (saved logs only)
+
+[원문 판독 범위·채점 실패·능력 변화 감사](MIXED_MECHANISM_AUDIT_v1_20261017/REPORT_KO.md) · [집계](MIXED_MECHANISM_AUDIT_v1_20261017/metrics.json) · [검토 상태](MIXED_MECHANISM_AUDIT_v1_20261017/REVIEW_STATUS.md)
