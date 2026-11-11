@@ -1,0 +1,1164 @@
+{
+  "stages": {
+    "mine": {
+      "valid_questions": 4,
+      "pairs": 8,
+      "failed_questions": 4,
+      "seconds": 27.508169412612915,
+      "reference_frozen_sha256": "803b0274696b6268793533e94bb5e478bafcfba8124a30c595c7cf430666e3a2",
+      "cache_recomputed_pairs": 6,
+      "reference_scope": "entire completion suffix including close tag and EOS; ranking label tokens only"
+    },
+    "arxiv_sft": {
+      "optimizer_steps": 2,
+      "exposures": 6,
+      "unique_questions": 4,
+      "source_exposures": {
+        "ArxivQA": 6
+      },
+      "ordered_ids": [
+        "ArxivQA:physics-8049",
+        "ArxivQA:cs-28122",
+        "ArxivQA:cs-45310",
+        "ArxivQA:cs-28122",
+        "ArxivQA:cs-45310",
+        "ArxivQA:physics-21656"
+      ],
+      "answer_weight": 3,
+      "loss_denominator": 5,
+      "seconds": 2.5491549968719482,
+      "peak_allocated_bytes": 9411219968,
+      "peak_reserved_bytes": 9760145408,
+      "adapter_hashes": {
+        "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+        "adapter_model.safetensors": "7a39f7580ab28cf2d04933b04394dda979d472236e6518a78950f629f24e89f8",
+        "adapter_config.json": "feaeaf98c56225f1d4e7e914439fe5c8a414cf6cf21df4018ec7c2a213dc5e75",
+        "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+        "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "tokenizer_config.json": "81ec7bb9530159b326c0bef1d0b6c33d392090524014ea3f0123a3c1eb9c2af5",
+        "added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+        "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "README.md": "ce12f9964726d319a3ab591fce905c46a3f9d124149dc625e9adf398d420ac08",
+        "video_preprocessor_config.json": "59c5c9eb52182eb14c06ffb10ca9effd29adce5f238a95de23ca14a38dbd2cb1",
+        "chat_template.jinja": "3636d0f0bd6bef02654cdffdc447b79cb2cef8ab02cc75267345946291a489e4",
+        "preprocessor_config.json": "483e57743011963e3d1ffa78be2198ec2322669f85e8d85cb4ab3a8db7893437"
+      }
+    },
+    "evaluate_mixed_sft": {
+      "by_source": {
+        "ArxivQA": {
+          "n": 4,
+          "free_correct": 0,
+          "ll_correct": 2,
+          "format_ok": 0,
+          "free_truncated": 0,
+          "reasoning_truncated": 0,
+          "errors": 0,
+          "mean_gold_minus_wrong": 4.791666567670745,
+          "official_correct": null
+        }
+      },
+      "seconds": 25.08467197418213,
+      "reload_and_generation_checked": true,
+      "official_parser_source_commit": null,
+      "official_prompt_not_reproduced": null,
+      "peak_allocated_bytes": 9079860224
+    },
+    "preflight": {
+      "image_forward_backward_passed": true,
+      "loss": 1.5672210454940796,
+      "region_loss": {
+        "reason": 2.013266086578369,
+        "answer": 0.00013457823661156,
+        "format": 5.8224358558654785
+      },
+      "peak_allocated_bytes": 9205860352,
+      "optimizer_steps": 0,
+      "preflight_adapter_not_reused": true
+    },
+    "pro_arxiv_sft": {
+      "by_source": {
+        "MMMU_Pro_standard10": {
+          "n": 2,
+          "free_correct": 0,
+          "ll_correct": 0,
+          "format_ok": 0,
+          "free_truncated": 0,
+          "reasoning_truncated": 0,
+          "errors": 0,
+          "mean_gold_minus_wrong": -16.000000834469574,
+          "official_correct": 1
+        },
+        "MMMU_Pro_vision": {
+          "n": 2,
+          "free_correct": 0,
+          "ll_correct": 0,
+          "format_ok": 0,
+          "free_truncated": 0,
+          "reasoning_truncated": 0,
+          "errors": 0,
+          "mean_gold_minus_wrong": -6.25,
+          "official_correct": 1
+        }
+      },
+      "seconds": 31.26965045928955,
+      "reload_and_generation_checked": true,
+      "official_parser_source_commit": "268471d0d488258990025331c7528359c324aa25",
+      "official_prompt_not_reproduced": "user fixed two-tag instruction used",
+      "peak_allocated_bytes": 9178978304
+    },
+    "evaluate_ranking": {
+      "by_source": {
+        "ArxivQA": {
+          "n": 4,
+          "free_correct": 0,
+          "ll_correct": 2,
+          "format_ok": 0,
+          "free_truncated": 0,
+          "reasoning_truncated": 0,
+          "errors": 0,
+          "mean_gold_minus_wrong": 11.249999644905301,
+          "official_correct": null
+        }
+      },
+      "seconds": 20.965953826904297,
+      "reload_and_generation_checked": true,
+      "official_parser_source_commit": null,
+      "official_prompt_not_reproduced": null,
+      "peak_allocated_bytes": 9079860224
+    },
+    "mixed_sft": {
+      "optimizer_steps": 2,
+      "exposures": 6,
+      "unique_questions": 5,
+      "source_exposures": {
+        "ArxivQA": 2,
+        "MMFineReason": 2,
+        "OpenMMReasoner": 2
+      },
+      "ordered_ids": [
+        "ArxivQA:physics-8049",
+        "MMFineReason:47055",
+        "OpenMMReasoner:OpenVLThinker-sft-iter3-0",
+        "ArxivQA:cs-28122",
+        "MMFineReason:47345",
+        "OpenMMReasoner:OpenVLThinker-sft-iter3-0"
+      ],
+      "answer_weight": 3,
+      "loss_denominator": 5,
+      "seconds": 2.318976402282715,
+      "peak_allocated_bytes": 10631826432,
+      "peak_reserved_bytes": 11941183488,
+      "adapter_hashes": {
+        "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+        "adapter_model.safetensors": "803b0274696b6268793533e94bb5e478bafcfba8124a30c595c7cf430666e3a2",
+        "adapter_config.json": "dcf1b991067853b1473629f556d31a601f4edec8a37a2589557b26b8824375d6",
+        "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+        "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "tokenizer_config.json": "81ec7bb9530159b326c0bef1d0b6c33d392090524014ea3f0123a3c1eb9c2af5",
+        "added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+        "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "README.md": "ce12f9964726d319a3ab591fce905c46a3f9d124149dc625e9adf398d420ac08",
+        "video_preprocessor_config.json": "59c5c9eb52182eb14c06ffb10ca9effd29adce5f238a95de23ca14a38dbd2cb1",
+        "chat_template.jinja": "3636d0f0bd6bef02654cdffdc447b79cb2cef8ab02cc75267345946291a489e4",
+        "preprocessor_config.json": "483e57743011963e3d1ffa78be2198ec2322669f85e8d85cb4ab3a8db7893437"
+      }
+    },
+    "evaluate_dpo": {
+      "by_source": {
+        "ArxivQA": {
+          "n": 4,
+          "free_correct": 0,
+          "ll_correct": 1,
+          "format_ok": 0,
+          "free_truncated": 0,
+          "reasoning_truncated": 0,
+          "errors": 0,
+          "mean_gold_minus_wrong": -1.5624997615850589,
+          "official_correct": null
+        }
+      },
+      "seconds": 25.16160249710083,
+      "reload_and_generation_checked": true,
+      "official_parser_source_commit": null,
+      "official_prompt_not_reproduced": null,
+      "peak_allocated_bytes": 9079860224
+    },
+    "ranking": {
+      "optimizer_steps": 2,
+      "exposures": 4,
+      "unique_questions": 4,
+      "ordered_ids": [
+        "ArxivQA:cs-45310",
+        "ArxivQA:physics-21656",
+        "ArxivQA:cs-26881",
+        "ArxivQA:astro-ph-30456"
+      ],
+      "per_question_weight": "mean over negatives first for DPO; one rank loss per question",
+      "reference_sha256": "803b0274696b6268793533e94bb5e478bafcfba8124a30c595c7cf430666e3a2",
+      "seconds": 2.8911421298980713,
+      "peak_allocated_bytes": 9316258304,
+      "peak_reserved_bytes": 9474932736
+    },
+    "evaluate_arxiv_sft": {
+      "by_source": {
+        "ArxivQA": {
+          "n": 4,
+          "free_correct": 0,
+          "ll_correct": 3,
+          "format_ok": 0,
+          "free_truncated": 0,
+          "reasoning_truncated": 0,
+          "errors": 0,
+          "mean_gold_minus_wrong": 9.791666761734026,
+          "official_correct": null
+        }
+      },
+      "seconds": 22.863757133483887,
+      "reload_and_generation_checked": true,
+      "official_parser_source_commit": null,
+      "official_prompt_not_reproduced": null,
+      "peak_allocated_bytes": 9079860224
+    },
+    "evaluate_initial": {
+      "by_source": {
+        "ArxivQA": {
+          "n": 4,
+          "free_correct": 0,
+          "ll_correct": 1,
+          "format_ok": 0,
+          "free_truncated": 0,
+          "reasoning_truncated": 0,
+          "errors": 0,
+          "mean_gold_minus_wrong": 11.374999761649633,
+          "official_correct": null
+        }
+      },
+      "seconds": 13.51459288597107,
+      "reload_and_generation_checked": true,
+      "official_parser_source_commit": null,
+      "official_prompt_not_reproduced": null,
+      "peak_allocated_bytes": 9035376640
+    },
+    "dpo": {
+      "optimizer_steps": 2,
+      "exposures": 4,
+      "unique_questions": 4,
+      "ordered_ids": [
+        "ArxivQA:cs-45310",
+        "ArxivQA:physics-21656",
+        "ArxivQA:cs-26881",
+        "ArxivQA:astro-ph-30456"
+      ],
+      "per_question_weight": "mean over negatives first for DPO; one rank loss per question",
+      "reference_sha256": "803b0274696b6268793533e94bb5e478bafcfba8124a30c595c7cf430666e3a2",
+      "seconds": 4.439563989639282,
+      "peak_allocated_bytes": 9634164736,
+      "peak_reserved_bytes": 9837740032
+    }
+  },
+  "selection": {
+    "selected_model": "arxiv_sft",
+    "selection_rule": "ArxivQA dev free accuracy, LL accuracy, format compliance, earlier model for tie; no MMMU-Pro score used",
+    "dev": {
+      "initial": {
+        "n": 4,
+        "free_correct": 0,
+        "ll_correct": 1,
+        "format_ok": 0,
+        "free_truncated": 0,
+        "reasoning_truncated": 0,
+        "errors": 0,
+        "mean_gold_minus_wrong": 11.374999761649633,
+        "official_correct": null
+      },
+      "arxiv_sft": {
+        "n": 4,
+        "free_correct": 0,
+        "ll_correct": 3,
+        "format_ok": 0,
+        "free_truncated": 0,
+        "reasoning_truncated": 0,
+        "errors": 0,
+        "mean_gold_minus_wrong": 9.791666761734026,
+        "official_correct": null
+      },
+      "mixed_sft": {
+        "n": 4,
+        "free_correct": 0,
+        "ll_correct": 2,
+        "format_ok": 0,
+        "free_truncated": 0,
+        "reasoning_truncated": 0,
+        "errors": 0,
+        "mean_gold_minus_wrong": 4.791666567670745,
+        "official_correct": null
+      },
+      "dpo": {
+        "n": 4,
+        "free_correct": 0,
+        "ll_correct": 1,
+        "format_ok": 0,
+        "free_truncated": 0,
+        "reasoning_truncated": 0,
+        "errors": 0,
+        "mean_gold_minus_wrong": -1.5624997615850589,
+        "official_correct": null
+      },
+      "ranking": {
+        "n": 4,
+        "free_correct": 0,
+        "ll_correct": 2,
+        "format_ok": 0,
+        "free_truncated": 0,
+        "reasoning_truncated": 0,
+        "errors": 0,
+        "mean_gold_minus_wrong": 11.249999644905301,
+        "official_correct": null
+      }
+    },
+    "locked_at_unix": 1794375204.033102,
+    "config_sha256": "836f0d387c4e0762d769f77411baae99158da13ad9db5681746e4ead6043b7dc",
+    "mmmu_pro_sample_sha256": "9fb156da10ee5aa6cac6a7f5626f7a72c568b7f9346a9a73a0fb0218cfebbe01"
+  },
+  "validation": {
+    "counts": {
+      "arxiv_train": 16,
+      "arxiv_dev": 4,
+      "fine_train": 13,
+      "openmm_train": 16
+    },
+    "validated_file_hashes": {
+      "arxiv_train": "2d222cc1befa0264ca148994011e61984c218318b8cdd8262fa3720705077ca9",
+      "arxiv_dev": "01ff7b8ffb7e286a203c0e4e6a39c637de88cfb369b678fb9ff8e3cc08e69881",
+      "fine_train": "9b318ddcd926e41293cc5ffb0dcc3b3838d7dd1e535bf19fb250436940ca70c1",
+      "openmm_train": "172c3dbef409afa849f2f36580f10f1bc3a8b11ff3003076ee85839ee99dbbbc"
+    },
+    "rejected": [
+      {
+        "id": "MMFineReason:111020",
+        "source": "MMFineReason",
+        "error": "ValueError('single-letter annotation without verifiable actual options')"
+      },
+      {
+        "id": "MMFineReason:9721",
+        "source": "MMFineReason",
+        "error": "AssertionError()"
+      },
+      {
+        "id": "MMFineReason:20811",
+        "source": "MMFineReason",
+        "error": "ValueError('single-letter annotation without verifiable actual options')"
+      }
+    ],
+    "no_truncation": true,
+    "assistant_only_loss": true,
+    "disjoint_region_masks": true,
+    "next_token_shift_verified": true,
+    "samplewise_region_means": true,
+    "padding": "microbatch1 has no real padding; synthetic4 positions masked"
+  },
+  "data": {
+    "seed": 42,
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "source_revisions": {
+      "MMInstruction/ArxivQA": "85a6dca0e2bdc6f0268ae519be8913f83a83cafd",
+      "OpenDataArena/MMFineReason-SFT-123K-Qwen3-VL-235B-Thinking": "cda6140bfba449bef9e57065a528b7424966e144",
+      "OpenMMReasoner/OpenMMReasoner-SFT-874K": "c44cf46e41bd24351ae7e7771a44fcd2dbf75f0a",
+      "MMMU/MMMU_Pro": "0d7426df4ccb3d8704a992fe6850abee7c262127"
+    },
+    "source_counts": {
+      "ArxivQA": 16,
+      "MMFineReason": 16,
+      "OpenMMReasoner": 16,
+      "arxiv_dev": 4,
+      "MMMU_Pro_cached": 64
+    },
+    "files": {
+      "arxiv_dev.jsonl": "01ff7b8ffb7e286a203c0e4e6a39c637de88cfb369b678fb9ff8e3cc08e69881",
+      "fine_train.jsonl": "88058ee43571eb80a060040674b070c44e419b56971658cedd9d99c09c19e9c2",
+      "mmmu_pro_cached.jsonl": "78086971210c9eba7f0951a8c44e729a6540d77fbdc264126c2e16ff1230694f",
+      "arxiv_train.jsonl": "2d222cc1befa0264ca148994011e61984c218318b8cdd8262fa3720705077ca9",
+      "openmm_train.jsonl": "172c3dbef409afa849f2f36580f10f1bc3a8b11ff3003076ee85839ee99dbbbc"
+    },
+    "paper_splits_sha256": "80ca23aaad319427c98174a09586cedf22c9dfb0e22bc3f696b85ae96d4f6240",
+    "exclusions": {
+      "fine_teacher_final_not_exact_annotation": 41,
+      "fine_reason_too_long_no_truncation": 23
+    },
+    "OpenMMReasoner_selected_config": "OpenVLThinker-sft-iter3",
+    "OpenMMReasoner_parquet_sha256": "552b58d08b1fb9fa5b64acdaf006f564452d712d92628ec83dda7e736638c88c",
+    "archive_range_transfers": [
+      {
+        "bytes": 3804460,
+        "requests": 4,
+        "members": 41045
+      },
+      {
+        "bytes": 25701384,
+        "requests": 52,
+        "members": 227358
+      }
+    ],
+    "dedup_scope": {
+      "ArxivQA_dev_test_questions": "all annotations",
+      "ArxivQA_dev_test_image_hashes": "acquired dev images only; test images not fully downloaded",
+      "MMMU_Pro": "cached first32 per config, exact text and decoded PNG SHA256",
+      "source_arxiv_paper_ids": "all protected dev/test groups when image path provides paper ID",
+      "limitations": "No perceptual duplicate search; no claim of full-corpus image overlap exclusion. OMM selected config lacks independently separate gold."
+    },
+    "test_evaluation_executed": false,
+    "ready": true
+  },
+  "source_file_receipts": [
+    {
+      "repo": "MMMU/MMMU_Pro",
+      "file": "standard (10 options)/test-00000-of-00002.parquet",
+      "revision": "0d7426df4ccb3d8704a992fe6850abee7c262127",
+      "bytes": 346370445,
+      "path": "/home/user/mmdl-work/datasets/raw/MMProFirst_20261111/pinned_shards/MMMU_Pro/standard (10 options)/test-00000-of-00002.parquet",
+      "sha256": "1a4e66a232e89fd3f3b4cb8090ca429c046b0cd00c8171a8c38b31ad518ea957",
+      "upstream_lfs_sha256": "1a4e66a232e89fd3f3b4cb8090ca429c046b0cd00c8171a8c38b31ad518ea957",
+      "upstream_hash_matches": true
+    },
+    {
+      "repo": "MMMU/MMMU_Pro",
+      "file": "vision/test-00000-of-00004.parquet",
+      "revision": "0d7426df4ccb3d8704a992fe6850abee7c262127",
+      "bytes": 430326271,
+      "path": "/home/user/mmdl-work/datasets/raw/MMProFirst_20261111/pinned_shards/MMMU_Pro/vision/test-00000-of-00004.parquet",
+      "sha256": "ea6f864a650517d61283da560e1cb6034b9b3db77db4a1a84cf48af5e0b45b48",
+      "upstream_lfs_sha256": "ea6f864a650517d61283da560e1cb6034b9b3db77db4a1a84cf48af5e0b45b48",
+      "upstream_hash_matches": true
+    },
+    {
+      "repo": "OpenDataArena/MMFineReason-SFT-123K-Qwen3-VL-235B-Thinking",
+      "file": "data/train-00000-of-00018.parquet",
+      "revision": "cda6140bfba449bef9e57065a528b7424966e144",
+      "bytes": 398412645,
+      "path": "/home/user/mmdl-work/datasets/raw/MMProFirst_20261111/pinned_shards/MMFineReason-SFT-123K-Qwen3-VL-235B-Thinking/data/train-00000-of-00018.parquet",
+      "sha256": "7c983f5e476a70e6c10bbc2399dfbf37580db4247e7883e84830cdf1b4f847a4",
+      "upstream_lfs_sha256": "7c983f5e476a70e6c10bbc2399dfbf37580db4247e7883e84830cdf1b4f847a4",
+      "upstream_hash_matches": true
+    }
+  ],
+  "model_file_receipt": {
+    "revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "files": [
+      {
+        "name": "chat_template.json",
+        "bytes": 5502,
+        "sha256": "6f8a6a55027e3da5160105556cda5dd69f6423f1c32645f6730d32de7773d0c4"
+      },
+      {
+        "name": "config.json",
+        "bytes": 1505,
+        "sha256": "edac7703329133edfc53e46ac0081835144c99d7eebf28b71c732694d435224d"
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 269,
+        "sha256": "8469742d1fce0de951c8909b26a2c0c0d8490837ce476efb114da9e0cefc4d44"
+      },
+      {
+        "name": "merges.txt",
+        "bytes": 1671839,
+        "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+      },
+      {
+        "name": "model-00001-of-00002.safetensors",
+        "bytes": 4967229296,
+        "sha256": "30a01a0556622645a3cce87b655bbbbbc1f170c196099f1b666c93202c3339a9"
+      },
+      {
+        "name": "model-00002-of-00002.safetensors",
+        "bytes": 3908490048,
+        "sha256": "046296a2a387efb43b0c997d5833c789604d168834f6e0d3064bf7bb13d002a6"
+      },
+      {
+        "name": "model.safetensors.index.json",
+        "bytes": 64742,
+        "sha256": "58a7841d7bff2548dd91577d216274a83cf1b500bc6a534b809d6c1b1707cf2b"
+      },
+      {
+        "name": "preprocessor_config.json",
+        "bytes": 390,
+        "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516"
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 7032403,
+        "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 10868,
+        "sha256": "c2da771801886ad9ae98181793ffd3dfb7f1af30f6f7c6a4e15d7dbba52e2399"
+      },
+      {
+        "name": "video_preprocessor_config.json",
+        "bytes": 385,
+        "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13"
+      },
+      {
+        "name": "vocab.json",
+        "bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      }
+    ],
+    "verified_at": 1794374504.2269132
+  },
+  "official_parser_file_sha256": "47e0928d9b786098a984d4c66ebee0e8cecd67732b955fbb6a31c2db78feb4cd",
+  "backend": {
+    "requested": "flash_attention_2",
+    "actual": "sdpa",
+    "failure": "ImportError('FlashAttention2 has been toggled on, but it cannot be used due to the following error: the package flash_attn seems to be not installed. Please refer to the documentation of https://huggingface.co/docs/transformers/perf_infer_gpu_one#flashattention-2 to install Flash Attention 2.')"
+  },
+  "environment": {
+    "hostname": "AIX408-4",
+    "python": "/home/user/mmdl-work/.venv-mmpro-first/bin/python",
+    "python_version": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+    "packages": {
+      "torch": "2.7.0+cu118",
+      "transformers": "4.57.1",
+      "peft": "0.17.1",
+      "pyarrow": "18.1.0",
+      "huggingface-hub": "0.36.2"
+    },
+    "nvidia_smi": "Wed Nov 11 14:17:51 2026       \n+---------------------------------------------------------------------------------------+\n| NVIDIA-SMI 535.274.02             Driver Version: 535.274.02   CUDA Version: 12.2     |\n|-----------------------------------------+----------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |\n|                                         |                      |               MIG M. |\n|=========================================+======================+======================|\n|   0  NVIDIA GeForce RTX 4090        Off | 00000000:01:00.0 Off |                  Off |\n|  0%   45C    P8              34W / 450W |     18MiB / 24564MiB |      0%      Default |\n|                                         |                      |                  N/A |\n+-----------------------------------------+----------------------+----------------------+\n                                                                                         \n+---------------------------------------------------------------------------------------+\n| Processes:                                                                            |\n|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |\n|        ID   ID                                                             Usage      |\n|=======================================================================================|\n|    0   N/A  N/A     13844      G   /usr/lib/xorg/Xorg                            4MiB |\n|    0   N/A  N/A     14928      G   /usr/lib/xorg/Xorg                            4MiB |\n+---------------------------------------------------------------------------------------+\n",
+    "df": "파일 시스템     크기  사용  가용 사용% 마운트위치\n/dev/nvme1n1p2  468G  398G   47G   90% /\ntmpfs            16G   13G  3.5G   79% /dev/shm\n",
+    "model_path": "/dev/shm/mmdl-user/ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "venv": "separate overlay, existing training packages referenced read-only; pyarrow added only to overlay",
+    "instructions_sha256": "7f1a1bc4b9b241601e3215624ce505cc11645c0d62b60a957eb299f30dadd43a",
+    "first_mask_checked": true,
+    "gold_or_reason_not_in_prompt": true
+  },
+  "independent_checks": {
+    "checks": [
+      {
+        "check": "letter label",
+        "passed": true
+      },
+      {
+        "check": "letter plus actual option text",
+        "passed": true
+      },
+      {
+        "check": "option-only label",
+        "passed": true
+      },
+      {
+        "check": "mismatched letter and option rejected",
+        "passed": true
+      },
+      {
+        "check": "ambiguous duplicate option rejected",
+        "passed": true
+      },
+      {
+        "check": "teacher final must match annotation",
+        "passed": true
+      },
+      {
+        "check": "strict format does not accept reasoning letters",
+        "passed": true
+      },
+      {
+        "check": "strict format rejects extra suffix",
+        "passed": true
+      },
+      {
+        "check": "samplewise region means then batch mean",
+        "passed": true
+      },
+      {
+        "check": "completion logprob sum not mean",
+        "passed": true
+      },
+      {
+        "check": "ranking gold gradient sign",
+        "passed": true
+      },
+      {
+        "check": "DPO identical reference still nonzero update gradient",
+        "passed": true
+      }
+    ],
+    "count": 12
+  },
+  "cache_input_audit": {
+    "all_candidates": 12,
+    "questions": 4
+  },
+  "answer_tag_audits": {
+    "evaluate_mixed_sft": {
+      "n": 4,
+      "answer_tag_correct": 3,
+      "rows": [
+        {
+          "id": "ArxivQA:cond-mat-23645",
+          "answer_tag_prediction": "B",
+          "answer_tag_correct": false,
+          "two_block_format_ok": false
+        },
+        {
+          "id": "ArxivQA:cs-50209",
+          "answer_tag_prediction": "C",
+          "answer_tag_correct": true,
+          "two_block_format_ok": false
+        },
+        {
+          "id": "ArxivQA:cond-mat-23511",
+          "answer_tag_prediction": "D",
+          "answer_tag_correct": true,
+          "two_block_format_ok": false
+        },
+        {
+          "id": "ArxivQA:cs-6472",
+          "answer_tag_prediction": "D",
+          "answer_tag_correct": true,
+          "two_block_format_ok": false
+        }
+      ],
+      "note": "supplementary extraction only; original strict scores and locked selection unchanged"
+    },
+    "evaluate_ranking": {
+      "n": 4,
+      "answer_tag_correct": 3,
+      "rows": [
+        {
+          "id": "ArxivQA:cond-mat-23645",
+          "answer_tag_prediction": "B",
+          "answer_tag_correct": false,
+          "two_block_format_ok": false
+        },
+        {
+          "id": "ArxivQA:cs-50209",
+          "answer_tag_prediction": "C",
+          "answer_tag_correct": true,
+          "two_block_format_ok": false
+        },
+        {
+          "id": "ArxivQA:cond-mat-23511",
+          "answer_tag_prediction": "D",
+          "answer_tag_correct": true,
+          "two_block_format_ok": false
+        },
+        {
+          "id": "ArxivQA:cs-6472",
+          "answer_tag_prediction": "D",
+          "answer_tag_correct": true,
+          "two_block_format_ok": false
+        }
+      ],
+      "note": "supplementary extraction only; original strict scores and locked selection unchanged"
+    },
+    "evaluate_dpo": {
+      "n": 4,
+      "answer_tag_correct": 3,
+      "rows": [
+        {
+          "id": "ArxivQA:cond-mat-23645",
+          "answer_tag_prediction": "D",
+          "answer_tag_correct": false,
+          "two_block_format_ok": false
+        },
+        {
+          "id": "ArxivQA:cs-50209",
+          "answer_tag_prediction": "C",
+          "answer_tag_correct": true,
+          "two_block_format_ok": false
+        },
+        {
+          "id": "ArxivQA:cond-mat-23511",
+          "answer_tag_prediction": "D",
+          "answer_tag_correct": true,
+          "two_block_format_ok": false
+        },
+        {
+          "id": "ArxivQA:cs-6472",
+          "answer_tag_prediction": "D",
+          "answer_tag_correct": true,
+          "two_block_format_ok": false
+        }
+      ],
+      "note": "supplementary extraction only; original strict scores and locked selection unchanged"
+    },
+    "evaluate_arxiv_sft": {
+      "n": 4,
+      "answer_tag_correct": 3,
+      "rows": [
+        {
+          "id": "ArxivQA:cond-mat-23645",
+          "answer_tag_prediction": "B",
+          "answer_tag_correct": false,
+          "two_block_format_ok": false
+        },
+        {
+          "id": "ArxivQA:cs-50209",
+          "answer_tag_prediction": "C",
+          "answer_tag_correct": true,
+          "two_block_format_ok": false
+        },
+        {
+          "id": "ArxivQA:cond-mat-23511",
+          "answer_tag_prediction": "D",
+          "answer_tag_correct": true,
+          "two_block_format_ok": false
+        },
+        {
+          "id": "ArxivQA:cs-6472",
+          "answer_tag_prediction": "D",
+          "answer_tag_correct": true,
+          "two_block_format_ok": false
+        }
+      ],
+      "note": "supplementary extraction only; original strict scores and locked selection unchanged"
+    },
+    "evaluate_initial": {
+      "n": 4,
+      "answer_tag_correct": 3,
+      "rows": [
+        {
+          "id": "ArxivQA:cond-mat-23645",
+          "answer_tag_prediction": "B",
+          "answer_tag_correct": false,
+          "two_block_format_ok": false
+        },
+        {
+          "id": "ArxivQA:cs-50209",
+          "answer_tag_prediction": "C",
+          "answer_tag_correct": true,
+          "two_block_format_ok": false
+        },
+        {
+          "id": "ArxivQA:cond-mat-23511",
+          "answer_tag_prediction": "D",
+          "answer_tag_correct": true,
+          "two_block_format_ok": false
+        },
+        {
+          "id": "ArxivQA:cs-6472",
+          "answer_tag_prediction": "D",
+          "answer_tag_correct": true,
+          "two_block_format_ok": false
+        }
+      ],
+      "note": "supplementary extraction only; original strict scores and locked selection unchanged"
+    }
+  },
+  "executed_stage_receipts": {
+    "mine": {
+      "status": "completed",
+      "metrics": {
+        "valid_questions": 4,
+        "pairs": 8,
+        "failed_questions": 4,
+        "seconds": 27.508169412612915,
+        "reference_frozen_sha256": "803b0274696b6268793533e94bb5e478bafcfba8124a30c595c7cf430666e3a2",
+        "cache_recomputed_pairs": 6,
+        "reference_scope": "entire completion suffix including close tag and EOS; ranking label tokens only"
+      },
+      "code_sha256": {
+        "core.py": "3f986e4e43c566920e2bd59be699b67d8f8ac2f6ac8359c33bca428a254e75ac",
+        "launch.py": "d95d0d7280cacf3d51475b6231f51fca2c031e046476d12f908e5f966749c417",
+        "checks.py": "8d10b8d61799462f69d171916249ff0d7fc67d89ff37f84990d91a6cea7f3cbc",
+        "run.py": "f045f87c2c8925926fdcd1e1741c74838b3bd65351db2e92e517a075899e9f83",
+        "materialize_test.py": "8e177a0a32ae221e5c6ed0f1d358e5418d12a2cd8fe513cffe0076fcbec962e0",
+        "data.py": "970b718ef7c10363ca0d39cca88c79bc00dffa50bca260a19e8ae46d80a17b6b"
+      },
+      "manifest_sha256": "6fabe72f83be8f67afed036fcd590ad980eb630e78afa7b322b08c182560c4d3",
+      "wall_seconds": 29.251439571380615
+    },
+    "arxiv_sft": {
+      "status": "completed",
+      "metrics": {
+        "optimizer_steps": 2,
+        "exposures": 6,
+        "unique_questions": 4,
+        "source_exposures": {
+          "ArxivQA": 6
+        },
+        "ordered_ids": [
+          "ArxivQA:physics-8049",
+          "ArxivQA:cs-28122",
+          "ArxivQA:cs-45310",
+          "ArxivQA:cs-28122",
+          "ArxivQA:cs-45310",
+          "ArxivQA:physics-21656"
+        ],
+        "answer_weight": 3,
+        "loss_denominator": 5,
+        "seconds": 2.5491549968719482,
+        "peak_allocated_bytes": 9411219968,
+        "peak_reserved_bytes": 9760145408,
+        "adapter_hashes": {
+          "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "adapter_model.safetensors": "7a39f7580ab28cf2d04933b04394dda979d472236e6518a78950f629f24e89f8",
+          "adapter_config.json": "feaeaf98c56225f1d4e7e914439fe5c8a414cf6cf21df4018ec7c2a213dc5e75",
+          "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+          "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+          "tokenizer_config.json": "81ec7bb9530159b326c0bef1d0b6c33d392090524014ea3f0123a3c1eb9c2af5",
+          "added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+          "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "README.md": "ce12f9964726d319a3ab591fce905c46a3f9d124149dc625e9adf398d420ac08",
+          "video_preprocessor_config.json": "59c5c9eb52182eb14c06ffb10ca9effd29adce5f238a95de23ca14a38dbd2cb1",
+          "chat_template.jinja": "3636d0f0bd6bef02654cdffdc447b79cb2cef8ab02cc75267345946291a489e4",
+          "preprocessor_config.json": "483e57743011963e3d1ffa78be2198ec2322669f85e8d85cb4ab3a8db7893437"
+        }
+      },
+      "code_sha256": {
+        "core.py": "3f986e4e43c566920e2bd59be699b67d8f8ac2f6ac8359c33bca428a254e75ac",
+        "launch.py": "d95d0d7280cacf3d51475b6231f51fca2c031e046476d12f908e5f966749c417",
+        "checks.py": "8d10b8d61799462f69d171916249ff0d7fc67d89ff37f84990d91a6cea7f3cbc",
+        "run.py": "f045f87c2c8925926fdcd1e1741c74838b3bd65351db2e92e517a075899e9f83",
+        "materialize_test.py": "8e177a0a32ae221e5c6ed0f1d358e5418d12a2cd8fe513cffe0076fcbec962e0",
+        "data.py": "970b718ef7c10363ca0d39cca88c79bc00dffa50bca260a19e8ae46d80a17b6b"
+      },
+      "manifest_sha256": "6fabe72f83be8f67afed036fcd590ad980eb630e78afa7b322b08c182560c4d3",
+      "wall_seconds": 4.340948104858398
+    },
+    "evaluate_mixed_sft": {
+      "status": "completed",
+      "metrics": {
+        "by_source": {
+          "ArxivQA": {
+            "n": 4,
+            "free_correct": 0,
+            "ll_correct": 2,
+            "format_ok": 0,
+            "free_truncated": 0,
+            "reasoning_truncated": 0,
+            "errors": 0,
+            "mean_gold_minus_wrong": 4.791666567670745,
+            "official_correct": null
+          }
+        },
+        "seconds": 25.08467197418213,
+        "reload_and_generation_checked": true,
+        "official_parser_source_commit": null,
+        "official_prompt_not_reproduced": null,
+        "peak_allocated_bytes": 9079860224
+      },
+      "code_sha256": {
+        "core.py": "3f986e4e43c566920e2bd59be699b67d8f8ac2f6ac8359c33bca428a254e75ac",
+        "launch.py": "d95d0d7280cacf3d51475b6231f51fca2c031e046476d12f908e5f966749c417",
+        "checks.py": "8d10b8d61799462f69d171916249ff0d7fc67d89ff37f84990d91a6cea7f3cbc",
+        "run.py": "f045f87c2c8925926fdcd1e1741c74838b3bd65351db2e92e517a075899e9f83",
+        "materialize_test.py": "8e177a0a32ae221e5c6ed0f1d358e5418d12a2cd8fe513cffe0076fcbec962e0",
+        "data.py": "970b718ef7c10363ca0d39cca88c79bc00dffa50bca260a19e8ae46d80a17b6b"
+      },
+      "manifest_sha256": "6fabe72f83be8f67afed036fcd590ad980eb630e78afa7b322b08c182560c4d3",
+      "wall_seconds": 26.821177005767822
+    },
+    "preflight": {
+      "status": "completed",
+      "metrics": {
+        "image_forward_backward_passed": true,
+        "loss": 1.5672210454940796,
+        "region_loss": {
+          "reason": 2.013266086578369,
+          "answer": 0.00013457823661156,
+          "format": 5.8224358558654785
+        },
+        "peak_allocated_bytes": 9205860352,
+        "optimizer_steps": 0,
+        "preflight_adapter_not_reused": true
+      },
+      "code_sha256": {
+        "core.py": "992708e1b28526153bb02334f128aaceecf42f9e0b2e72486a34e642e7c9556b",
+        "run.py": "85a00204f2a7c3e7da50c4075729da465b852babc39abd2e35a62d42a51ac9f2",
+        "data.py": "d8258f039dba89863cf6558317cbc4a5d2cb4f74ec06f0fc06efbee33756f29d"
+      },
+      "manifest_sha256": null,
+      "wall_seconds": 10.63779067993164
+    },
+    "pro_arxiv_sft": {
+      "status": "completed",
+      "metrics": {
+        "by_source": {
+          "MMMU_Pro_standard10": {
+            "n": 2,
+            "free_correct": 0,
+            "ll_correct": 0,
+            "format_ok": 0,
+            "free_truncated": 0,
+            "reasoning_truncated": 0,
+            "errors": 0,
+            "mean_gold_minus_wrong": -16.000000834469574,
+            "official_correct": 1
+          },
+          "MMMU_Pro_vision": {
+            "n": 2,
+            "free_correct": 0,
+            "ll_correct": 0,
+            "format_ok": 0,
+            "free_truncated": 0,
+            "reasoning_truncated": 0,
+            "errors": 0,
+            "mean_gold_minus_wrong": -6.25,
+            "official_correct": 1
+          }
+        },
+        "seconds": 31.26965045928955,
+        "reload_and_generation_checked": true,
+        "official_parser_source_commit": "268471d0d488258990025331c7528359c324aa25",
+        "official_prompt_not_reproduced": "user fixed two-tag instruction used",
+        "peak_allocated_bytes": 9178978304
+      },
+      "code_sha256": {
+        "audit_cache.py": "2c9295a5b9594f4e1cec640fe4d23437b8ede5cec4bc66e5c5f37720962c3cf6",
+        "core.py": "3f986e4e43c566920e2bd59be699b67d8f8ac2f6ac8359c33bca428a254e75ac",
+        "launch.py": "d95d0d7280cacf3d51475b6231f51fca2c031e046476d12f908e5f966749c417",
+        "checks.py": "8d10b8d61799462f69d171916249ff0d7fc67d89ff37f84990d91a6cea7f3cbc",
+        "run.py": "f045f87c2c8925926fdcd1e1741c74838b3bd65351db2e92e517a075899e9f83",
+        "materialize_test.py": "8e177a0a32ae221e5c6ed0f1d358e5418d12a2cd8fe513cffe0076fcbec962e0",
+        "data.py": "970b718ef7c10363ca0d39cca88c79bc00dffa50bca260a19e8ae46d80a17b6b"
+      },
+      "manifest_sha256": "6fabe72f83be8f67afed036fcd590ad980eb630e78afa7b322b08c182560c4d3",
+      "wall_seconds": 33.02267026901245
+    },
+    "evaluate_ranking": {
+      "status": "completed",
+      "metrics": {
+        "by_source": {
+          "ArxivQA": {
+            "n": 4,
+            "free_correct": 0,
+            "ll_correct": 2,
+            "format_ok": 0,
+            "free_truncated": 0,
+            "reasoning_truncated": 0,
+            "errors": 0,
+            "mean_gold_minus_wrong": 11.249999644905301,
+            "official_correct": null
+          }
+        },
+        "seconds": 20.965953826904297,
+        "reload_and_generation_checked": true,
+        "official_parser_source_commit": null,
+        "official_prompt_not_reproduced": null,
+        "peak_allocated_bytes": 9079860224
+      },
+      "code_sha256": {
+        "audit_cache.py": "2c9295a5b9594f4e1cec640fe4d23437b8ede5cec4bc66e5c5f37720962c3cf6",
+        "core.py": "3f986e4e43c566920e2bd59be699b67d8f8ac2f6ac8359c33bca428a254e75ac",
+        "launch.py": "d95d0d7280cacf3d51475b6231f51fca2c031e046476d12f908e5f966749c417",
+        "checks.py": "8d10b8d61799462f69d171916249ff0d7fc67d89ff37f84990d91a6cea7f3cbc",
+        "run.py": "f045f87c2c8925926fdcd1e1741c74838b3bd65351db2e92e517a075899e9f83",
+        "materialize_test.py": "8e177a0a32ae221e5c6ed0f1d358e5418d12a2cd8fe513cffe0076fcbec962e0",
+        "data.py": "970b718ef7c10363ca0d39cca88c79bc00dffa50bca260a19e8ae46d80a17b6b"
+      },
+      "manifest_sha256": "6fabe72f83be8f67afed036fcd590ad980eb630e78afa7b322b08c182560c4d3",
+      "wall_seconds": 22.704790592193604
+    },
+    "mixed_sft": {
+      "status": "completed",
+      "metrics": {
+        "optimizer_steps": 2,
+        "exposures": 6,
+        "unique_questions": 5,
+        "source_exposures": {
+          "ArxivQA": 2,
+          "MMFineReason": 2,
+          "OpenMMReasoner": 2
+        },
+        "ordered_ids": [
+          "ArxivQA:physics-8049",
+          "MMFineReason:47055",
+          "OpenMMReasoner:OpenVLThinker-sft-iter3-0",
+          "ArxivQA:cs-28122",
+          "MMFineReason:47345",
+          "OpenMMReasoner:OpenVLThinker-sft-iter3-0"
+        ],
+        "answer_weight": 3,
+        "loss_denominator": 5,
+        "seconds": 2.318976402282715,
+        "peak_allocated_bytes": 10631826432,
+        "peak_reserved_bytes": 11941183488,
+        "adapter_hashes": {
+          "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "adapter_model.safetensors": "803b0274696b6268793533e94bb5e478bafcfba8124a30c595c7cf430666e3a2",
+          "adapter_config.json": "dcf1b991067853b1473629f556d31a601f4edec8a37a2589557b26b8824375d6",
+          "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+          "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+          "tokenizer_config.json": "81ec7bb9530159b326c0bef1d0b6c33d392090524014ea3f0123a3c1eb9c2af5",
+          "added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+          "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "README.md": "ce12f9964726d319a3ab591fce905c46a3f9d124149dc625e9adf398d420ac08",
+          "video_preprocessor_config.json": "59c5c9eb52182eb14c06ffb10ca9effd29adce5f238a95de23ca14a38dbd2cb1",
+          "chat_template.jinja": "3636d0f0bd6bef02654cdffdc447b79cb2cef8ab02cc75267345946291a489e4",
+          "preprocessor_config.json": "483e57743011963e3d1ffa78be2198ec2322669f85e8d85cb4ab3a8db7893437"
+        }
+      },
+      "code_sha256": {
+        "core.py": "3f986e4e43c566920e2bd59be699b67d8f8ac2f6ac8359c33bca428a254e75ac",
+        "launch.py": "d95d0d7280cacf3d51475b6231f51fca2c031e046476d12f908e5f966749c417",
+        "checks.py": "8d10b8d61799462f69d171916249ff0d7fc67d89ff37f84990d91a6cea7f3cbc",
+        "run.py": "f045f87c2c8925926fdcd1e1741c74838b3bd65351db2e92e517a075899e9f83",
+        "materialize_test.py": "8e177a0a32ae221e5c6ed0f1d358e5418d12a2cd8fe513cffe0076fcbec962e0",
+        "data.py": "970b718ef7c10363ca0d39cca88c79bc00dffa50bca260a19e8ae46d80a17b6b"
+      },
+      "manifest_sha256": "6fabe72f83be8f67afed036fcd590ad980eb630e78afa7b322b08c182560c4d3",
+      "wall_seconds": 4.110154867172241
+    },
+    "evaluate_dpo": {
+      "status": "completed",
+      "metrics": {
+        "by_source": {
+          "ArxivQA": {
+            "n": 4,
+            "free_correct": 0,
+            "ll_correct": 1,
+            "format_ok": 0,
+            "free_truncated": 0,
+            "reasoning_truncated": 0,
+            "errors": 0,
+            "mean_gold_minus_wrong": -1.5624997615850589,
+            "official_correct": null
+          }
+        },
+        "seconds": 25.16160249710083,
+        "reload_and_generation_checked": true,
+        "official_parser_source_commit": null,
+        "official_prompt_not_reproduced": null,
+        "peak_allocated_bytes": 9079860224
+      },
+      "code_sha256": {
+        "core.py": "3f986e4e43c566920e2bd59be699b67d8f8ac2f6ac8359c33bca428a254e75ac",
+        "launch.py": "d95d0d7280cacf3d51475b6231f51fca2c031e046476d12f908e5f966749c417",
+        "checks.py": "8d10b8d61799462f69d171916249ff0d7fc67d89ff37f84990d91a6cea7f3cbc",
+        "run.py": "f045f87c2c8925926fdcd1e1741c74838b3bd65351db2e92e517a075899e9f83",
+        "materialize_test.py": "8e177a0a32ae221e5c6ed0f1d358e5418d12a2cd8fe513cffe0076fcbec962e0",
+        "data.py": "970b718ef7c10363ca0d39cca88c79bc00dffa50bca260a19e8ae46d80a17b6b"
+      },
+      "manifest_sha256": "6fabe72f83be8f67afed036fcd590ad980eb630e78afa7b322b08c182560c4d3",
+      "wall_seconds": 26.88733172416687
+    },
+    "ranking": {
+      "status": "completed",
+      "metrics": {
+        "optimizer_steps": 2,
+        "exposures": 4,
+        "unique_questions": 4,
+        "ordered_ids": [
+          "ArxivQA:cs-45310",
+          "ArxivQA:physics-21656",
+          "ArxivQA:cs-26881",
+          "ArxivQA:astro-ph-30456"
+        ],
+        "per_question_weight": "mean over negatives first for DPO; one rank loss per question",
+        "reference_sha256": "803b0274696b6268793533e94bb5e478bafcfba8124a30c595c7cf430666e3a2",
+        "seconds": 2.8911421298980713,
+        "peak_allocated_bytes": 9316258304,
+        "peak_reserved_bytes": 9474932736
+      },
+      "code_sha256": {
+        "core.py": "3f986e4e43c566920e2bd59be699b67d8f8ac2f6ac8359c33bca428a254e75ac",
+        "launch.py": "d95d0d7280cacf3d51475b6231f51fca2c031e046476d12f908e5f966749c417",
+        "checks.py": "8d10b8d61799462f69d171916249ff0d7fc67d89ff37f84990d91a6cea7f3cbc",
+        "run.py": "f045f87c2c8925926fdcd1e1741c74838b3bd65351db2e92e517a075899e9f83",
+        "materialize_test.py": "8e177a0a32ae221e5c6ed0f1d358e5418d12a2cd8fe513cffe0076fcbec962e0",
+        "data.py": "970b718ef7c10363ca0d39cca88c79bc00dffa50bca260a19e8ae46d80a17b6b"
+      },
+      "manifest_sha256": "6fabe72f83be8f67afed036fcd590ad980eb630e78afa7b322b08c182560c4d3",
+      "wall_seconds": 6.11002516746521
+    },
+    "evaluate_arxiv_sft": {
+      "status": "completed",
+      "metrics": {
+        "by_source": {
+          "ArxivQA": {
+            "n": 4,
+            "free_correct": 0,
+            "ll_correct": 3,
+            "format_ok": 0,
+            "free_truncated": 0,
+            "reasoning_truncated": 0,
+            "errors": 0,
+            "mean_gold_minus_wrong": 9.791666761734026,
+            "official_correct": null
+          }
+        },
+        "seconds": 22.863757133483887,
+        "reload_and_generation_checked": true,
+        "official_parser_source_commit": null,
+        "official_prompt_not_reproduced": null,
+        "peak_allocated_bytes": 9079860224
+      },
+      "code_sha256": {
+        "core.py": "3f986e4e43c566920e2bd59be699b67d8f8ac2f6ac8359c33bca428a254e75ac",
+        "launch.py": "d95d0d7280cacf3d51475b6231f51fca2c031e046476d12f908e5f966749c417",
+        "checks.py": "8d10b8d61799462f69d171916249ff0d7fc67d89ff37f84990d91a6cea7f3cbc",
+        "run.py": "f045f87c2c8925926fdcd1e1741c74838b3bd65351db2e92e517a075899e9f83",
+        "materialize_test.py": "8e177a0a32ae221e5c6ed0f1d358e5418d12a2cd8fe513cffe0076fcbec962e0",
+        "data.py": "970b718ef7c10363ca0d39cca88c79bc00dffa50bca260a19e8ae46d80a17b6b"
+      },
+      "manifest_sha256": "6fabe72f83be8f67afed036fcd590ad980eb630e78afa7b322b08c182560c4d3",
+      "wall_seconds": 24.6158549785614
+    },
+    "evaluate_initial": {
+      "status": "completed",
+      "metrics": {
+        "by_source": {
+          "ArxivQA": {
+            "n": 4,
+            "free_correct": 0,
+            "ll_correct": 1,
+            "format_ok": 0,
+            "free_truncated": 0,
+            "reasoning_truncated": 0,
+            "errors": 0,
+            "mean_gold_minus_wrong": 11.374999761649633,
+            "official_correct": null
+          }
+        },
+        "seconds": 13.51459288597107,
+        "reload_and_generation_checked": true,
+        "official_parser_source_commit": null,
+        "official_prompt_not_reproduced": null,
+        "peak_allocated_bytes": 9035376640
+      },
+      "code_sha256": {
+        "core.py": "3f986e4e43c566920e2bd59be699b67d8f8ac2f6ac8359c33bca428a254e75ac",
+        "launch.py": "d95d0d7280cacf3d51475b6231f51fca2c031e046476d12f908e5f966749c417",
+        "checks.py": "8d10b8d61799462f69d171916249ff0d7fc67d89ff37f84990d91a6cea7f3cbc",
+        "run.py": "f045f87c2c8925926fdcd1e1741c74838b3bd65351db2e92e517a075899e9f83",
+        "materialize_test.py": "8e177a0a32ae221e5c6ed0f1d358e5418d12a2cd8fe513cffe0076fcbec962e0",
+        "data.py": "970b718ef7c10363ca0d39cca88c79bc00dffa50bca260a19e8ae46d80a17b6b"
+      },
+      "manifest_sha256": "6fabe72f83be8f67afed036fcd590ad980eb630e78afa7b322b08c182560c4d3",
+      "wall_seconds": 14.977416038513184
+    },
+    "dpo": {
+      "status": "completed",
+      "metrics": {
+        "optimizer_steps": 2,
+        "exposures": 4,
+        "unique_questions": 4,
+        "ordered_ids": [
+          "ArxivQA:cs-45310",
+          "ArxivQA:physics-21656",
+          "ArxivQA:cs-26881",
+          "ArxivQA:astro-ph-30456"
+        ],
+        "per_question_weight": "mean over negatives first for DPO; one rank loss per question",
+        "reference_sha256": "803b0274696b6268793533e94bb5e478bafcfba8124a30c595c7cf430666e3a2",
+        "seconds": 4.439563989639282,
+        "peak_allocated_bytes": 9634164736,
+        "peak_reserved_bytes": 9837740032
+      },
+      "code_sha256": {
+        "core.py": "3f986e4e43c566920e2bd59be699b67d8f8ac2f6ac8359c33bca428a254e75ac",
+        "launch.py": "d95d0d7280cacf3d51475b6231f51fca2c031e046476d12f908e5f966749c417",
+        "checks.py": "8d10b8d61799462f69d171916249ff0d7fc67d89ff37f84990d91a6cea7f3cbc",
+        "run.py": "f045f87c2c8925926fdcd1e1741c74838b3bd65351db2e92e517a075899e9f83",
+        "materialize_test.py": "8e177a0a32ae221e5c6ed0f1d358e5418d12a2cd8fe513cffe0076fcbec962e0",
+        "data.py": "970b718ef7c10363ca0d39cca88c79bc00dffa50bca260a19e8ae46d80a17b6b"
+      },
+      "manifest_sha256": "6fabe72f83be8f67afed036fcd590ad980eb630e78afa7b322b08c182560c4d3",
+      "wall_seconds": 7.62556004524231
+    }
+  }
+}

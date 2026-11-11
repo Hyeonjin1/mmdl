@@ -27,3 +27,6 @@ configs/P04/download_requests.json
 # Current-host private restoration runtime and full run artifacts
 .restore/
 runs/P04_20261011T*restore*/
+
+# New pipeline local-only raw generations, teacher traces, masks and adapters
+runs/MMProFirst_*/

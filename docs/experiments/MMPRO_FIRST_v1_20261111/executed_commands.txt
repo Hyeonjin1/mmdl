@@ -1,0 +1,12 @@
+arxiv_sft: /home/user/mmdl-work/.venv-mmpro-first/bin/python /home/user/mmdl-work/code/mmpro_first/run.py arxiv_sft
+dpo: /home/user/mmdl-work/.venv-mmpro-first/bin/python /home/user/mmdl-work/code/mmpro_first/run.py dpo
+evaluate_arxiv_sft: /home/user/mmdl-work/.venv-mmpro-first/bin/python /home/user/mmdl-work/code/mmpro_first/run.py evaluate --model arxiv_sft
+evaluate_dpo: /home/user/mmdl-work/.venv-mmpro-first/bin/python /home/user/mmdl-work/code/mmpro_first/run.py evaluate --model dpo
+evaluate_initial: /home/user/mmdl-work/.venv-mmpro-first/bin/python /home/user/mmdl-work/code/mmpro_first/run.py evaluate --model initial
+evaluate_mixed_sft: /home/user/mmdl-work/.venv-mmpro-first/bin/python /home/user/mmdl-work/code/mmpro_first/run.py evaluate --model mixed_sft
+evaluate_ranking: /home/user/mmdl-work/.venv-mmpro-first/bin/python /home/user/mmdl-work/code/mmpro_first/run.py evaluate --model ranking
+mine: /home/user/mmdl-work/.venv-mmpro-first/bin/python /home/user/mmdl-work/code/mmpro_first/run.py mine
+mixed_sft: /home/user/mmdl-work/.venv-mmpro-first/bin/python /home/user/mmdl-work/code/mmpro_first/run.py mixed_sft
+preflight: /home/user/mmdl-work/.venv-mmpro-first/bin/python code/mmpro_first/run.py preflight
+pro_arxiv_sft: /home/user/mmdl-work/.venv-mmpro-first/bin/python /home/user/mmdl-work/code/mmpro_first/run.py pro --model arxiv_sft
+ranking: /home/user/mmdl-work/.venv-mmpro-first/bin/python /home/user/mmdl-work/code/mmpro_first/run.py ranking

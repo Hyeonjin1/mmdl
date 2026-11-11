@@ -43,3 +43,7 @@
 ## Mixed-scoring mechanism audit (saved logs only)
 
 [원문 판독 범위·채점 실패·능력 변화 감사](MIXED_MECHANISM_AUDIT_v1_20261017/REPORT_KO.md) · [집계](MIXED_MECHANISM_AUDIT_v1_20261017/metrics.json) · [검토 상태](MIXED_MECHANISM_AUDIT_v1_20261017/REVIEW_STATUS.md)
+
+## Qwen3-VL MMMU-Pro: first weighted SFT / DPO / ranking pipeline
+
+[실제 소규모 실행·형식 실패·평가 보고서](MMPRO_FIRST_v1_20261111/REPORT_KO.md) · [지표와 provenance](MMPRO_FIRST_v1_20261111/metrics.json) · [문항별 판정](MMPRO_FIRST_v1_20261111/question_decisions.csv) · [재실행 코드와 명령](../../code/mmpro_first/README.md)

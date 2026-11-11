@@ -1,0 +1,22 @@
+{
+  "arxiv_dev_validated": {
+    "rows": 4,
+    "unique_question_ids": 4,
+    "unique_images": 4
+  },
+  "fine_train_validated": {
+    "rows": 13,
+    "unique_question_ids": 13,
+    "unique_images": 13
+  },
+  "arxiv_train_validated": {
+    "rows": 16,
+    "unique_question_ids": 16,
+    "unique_images": 16
+  },
+  "openmm_train_validated": {
+    "rows": 16,
+    "unique_question_ids": 2,
+    "unique_images": 2
+  }
+}

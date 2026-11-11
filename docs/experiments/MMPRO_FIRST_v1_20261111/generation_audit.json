@@ -1,0 +1,38 @@
+{
+  "evaluate_mixed_sft": {
+    "n": 4,
+    "ll_scored_n": 3,
+    "ll_incomplete_reasoning": 1,
+    "free_format_failed": 4
+  },
+  "pro_arxiv_sft": {
+    "n": 4,
+    "ll_scored_n": 2,
+    "ll_incomplete_reasoning": 2,
+    "free_format_failed": 4
+  },
+  "evaluate_ranking": {
+    "n": 4,
+    "ll_scored_n": 2,
+    "ll_incomplete_reasoning": 2,
+    "free_format_failed": 4
+  },
+  "evaluate_dpo": {
+    "n": 4,
+    "ll_scored_n": 2,
+    "ll_incomplete_reasoning": 2,
+    "free_format_failed": 4
+  },
+  "evaluate_arxiv_sft": {
+    "n": 4,
+    "ll_scored_n": 3,
+    "ll_incomplete_reasoning": 1,
+    "free_format_failed": 4
+  },
+  "evaluate_initial": {
+    "n": 4,
+    "ll_scored_n": 1,
+    "ll_incomplete_reasoning": 3,
+    "free_format_failed": 4
+  }
+}

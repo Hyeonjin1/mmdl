@@ -1,0 +1,18 @@
+{
+  "code/mmpro_first/audit_cache.py": "2c9295a5b9594f4e1cec640fe4d23437b8ede5cec4bc66e5c5f37720962c3cf6",
+  "code/mmpro_first/core.py": "3f986e4e43c566920e2bd59be699b67d8f8ac2f6ac8359c33bca428a254e75ac",
+  "code/mmpro_first/launch.py": "f011a677c86b72f7f04418088a1c2857cbe4541517ce29a40e4513742eeab49b",
+  "code/mmpro_first/checks.py": "8d10b8d61799462f69d171916249ff0d7fc67d89ff37f84990d91a6cea7f3cbc",
+  "code/mmpro_first/run.py": "f045f87c2c8925926fdcd1e1741c74838b3bd65351db2e92e517a075899e9f83",
+  "code/mmpro_first/materialize_test.py": "8e177a0a32ae221e5c6ed0f1d358e5418d12a2cd8fe513cffe0076fcbec962e0",
+  "code/mmpro_first/data.py": "970b718ef7c10363ca0d39cca88c79bc00dffa50bca260a19e8ae46d80a17b6b",
+  "configs/MMProFirst_v1/smoke_answer3.json": "836f0d387c4e0762d769f77411baae99158da13ad9db5681746e4ead6043b7dc",
+  "configs/MMProFirst_v1/same_data_answer1.json": "f63c025cf7e0e9bd5a80367dcc3451aba3702c5702c1ffa6131da5c1f8829041",
+  "docs/experiments/MMPRO_FIRST_v1_20261111/question_decisions.csv": "a9ce70ef99a109f523ffe514073dce1ed46b7bbf80e32cf437007f71743bfe2b",
+  "docs/experiments/MMPRO_FIRST_v1_20261111/sample_manifest.csv": "a98bf63f03639b83884387ca3ec9dc53155172265eb45b349014af2446e68a24",
+  "docs/experiments/MMPRO_FIRST_v1_20261111/REPORT_KO.md": "2cecb18cbb8258a042322411b16129b252d1ec922ca93cb3f470644eacd46e66",
+  "docs/experiments/MMPRO_FIRST_v1_20261111/metrics.json": "b0f2c3c4e37215963309845b785aa73fcd33637f8f81e57862a67174945d25b1",
+  "docs/experiments/MMPRO_FIRST_v1_20261111/generation_audit.json": "a48d573d830aca5d4cd072e73805e1778632533eaf04d792ace0031e6ba24bd1",
+  "docs/experiments/MMPRO_FIRST_v1_20261111/pool_counts.json": "4e9bbd471954920415663040e5552d3a7c8a36804fe550982d7c989ae5df9092",
+  "docs/experiments/MMPRO_FIRST_v1_20261111/executed_commands.txt": "3750cf0d9264ff10c8138380e90261966913dde4f1f60184d8345bca767ffd05"
+}
