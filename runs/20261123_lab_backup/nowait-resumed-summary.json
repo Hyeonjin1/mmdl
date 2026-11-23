@@ -1,0 +1,223 @@
+{
+  "expected_pairs": 40,
+  "completed_pairs": 37,
+  "complete": false,
+  "missing_ids": [
+    "validation_Architecture_and_Engineering_26",
+    "validation_Architecture_and_Engineering_9",
+    "validation_Materials_9"
+  ],
+  "conditions": {
+    "baseline": {
+      "count": 37,
+      "correct": 6,
+      "accuracy": 0.16216216216216217,
+      "extracted": 10,
+      "length": 21,
+      "repetition_abort": 8,
+      "generated_tokens_total": 231597,
+      "generated_tokens_mean": 6259.378378378378,
+      "generated_tokens_median": 8192,
+      "seconds_total": 2582.740236161102,
+      "seconds_mean": 69.80379016651628,
+      "generated": 40,
+      "scored": 38,
+      "missing_generation_ids": [],
+      "pending_score_ids": [
+        "validation_Architecture_and_Engineering_26",
+        "validation_Architecture_and_Engineering_9"
+      ]
+    },
+    "nowait": {
+      "count": 37,
+      "correct": 8,
+      "accuracy": 0.21621621621621623,
+      "extracted": 16,
+      "length": 17,
+      "repetition_abort": 4,
+      "generated_tokens_total": 220784,
+      "generated_tokens_mean": 5967.135135135135,
+      "generated_tokens_median": 7527,
+      "seconds_total": 2458.5521060689935,
+      "seconds_mean": 66.4473542180809,
+      "generated": 40,
+      "scored": 38,
+      "missing_generation_ids": [],
+      "pending_score_ids": [
+        "validation_Architecture_and_Engineering_26",
+        "validation_Materials_9"
+      ]
+    }
+  },
+  "changes": {
+    "unextracted->correct": {
+      "count": 4,
+      "ids": [
+        "validation_Architecture_and_Engineering_18",
+        "validation_Electronics_14",
+        "validation_Mechanical_Engineering_8",
+        "validation_Music_25"
+      ]
+    },
+    "incorrect->correct": {
+      "count": 1,
+      "ids": [
+        "validation_Energy_and_Power_17"
+      ]
+    },
+    "correct->incorrect": {
+      "count": 2,
+      "ids": [
+        "validation_Materials_20",
+        "validation_Music_27"
+      ]
+    },
+    "correct->unextracted": {
+      "count": 1,
+      "ids": [
+        "validation_Mechanical_Engineering_4"
+      ]
+    }
+  },
+  "net_correct": 2,
+  "fresh_baseline_length": {
+    "count": 24,
+    "ids": [
+      "validation_Accounting_22",
+      "validation_Architecture_and_Engineering_13",
+      "validation_Architecture_and_Engineering_17",
+      "validation_Architecture_and_Engineering_18",
+      "validation_Architecture_and_Engineering_22",
+      "validation_Architecture_and_Engineering_26",
+      "validation_Architecture_and_Engineering_9",
+      "validation_Computer_Science_12",
+      "validation_Electronics_14",
+      "validation_Electronics_17",
+      "validation_Electronics_7",
+      "validation_Energy_and_Power_1",
+      "validation_Energy_and_Power_12",
+      "validation_Energy_and_Power_14",
+      "validation_Energy_and_Power_22",
+      "validation_Energy_and_Power_4",
+      "validation_Energy_and_Power_8",
+      "validation_Energy_and_Power_9",
+      "validation_Materials_22",
+      "validation_Materials_4",
+      "validation_Materials_9",
+      "validation_Math_16",
+      "validation_Mechanical_Engineering_27",
+      "validation_Mechanical_Engineering_28"
+    ],
+    "completed_pairs": 21,
+    "nowait_normal_stop": 5,
+    "nowait_extracted": 5,
+    "nowait_correct": 2,
+    "nowait_repetition_abort": 2
+  },
+  "token_savings": {
+    "all_pairs": {
+      "count": 37,
+      "tokens": {
+        "baseline": 231597,
+        "nowait": 220784
+      },
+      "savings": 0.04668886039111042
+    },
+    "both_normal": {
+      "count": 7,
+      "tokens": {
+        "baseline": 23692,
+        "nowait": 19209
+      },
+      "savings": 0.18921998986999833
+    },
+    "nowait_repetition_abort": {
+      "count": 4,
+      "tokens": {
+        "baseline": 27136,
+        "nowait": 22912
+      },
+      "savings": 0.1556603773584906
+    },
+    "without_nowait_repetition_abort": {
+      "count": 33,
+      "tokens": {
+        "baseline": 204461,
+        "nowait": 197872
+      },
+      "savings": 0.03222619472662269
+    }
+  },
+  "mask_check": {
+    "nowait_violations": 0,
+    "nowait_id_coverage": 40,
+    "baseline_id_coverage": 40,
+    "baseline_id_unavailable": 0,
+    "baseline_questions_with_blocked_ids": 39,
+    "baseline_blocked_token_count": 3600,
+    "baseline_blocked_id_frequencies": {
+      "714": 1167,
+      "894": 31,
+      "1008": 41,
+      "1414": 40,
+      "1431": 29,
+      "1549": 95,
+      "1657": 34,
+      "1779": 57,
+      "1988": 183,
+      "2028": 2,
+      "2348": 1,
+      "2441": 28,
+      "2813": 4,
+      "3783": 78,
+      "3800": 2,
+      "3881": 12,
+      "3973": 3,
+      "3983": 798,
+      "4113": 5,
+      "4237": 2,
+      "4248": 1,
+      "4354": 8,
+      "4695": 2,
+      "5937": 5,
+      "6944": 6,
+      "7039": 119,
+      "7196": 95,
+      "7982": 2,
+      "8088": 7,
+      "8580": 1,
+      "9788": 6,
+      "10146": 5,
+      "10696": 4,
+      "11209": 17,
+      "11908": 3,
+      "12341": 2,
+      "13293": 1,
+      "13295": 6,
+      "13824": 79,
+      "14037": 143,
+      "14063": 2,
+      "14190": 306,
+      "14584": 1,
+      "15934": 16,
+      "16088": 1,
+      "16792": 3,
+      "18527": 7,
+      "19026": 3,
+      "21390": 26,
+      "24765": 21,
+      "29215": 1,
+      "30385": 10,
+      "31140": 3,
+      "36760": 1,
+      "41109": 1,
+      "42972": 1,
+      "49712": 1,
+      "75763": 7,
+      "80022": 6,
+      "88190": 1,
+      "89996": 1,
+      "92014": 57
+    }
+  }
+}
