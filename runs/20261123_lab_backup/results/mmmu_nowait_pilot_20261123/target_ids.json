@@ -1,0 +1,921 @@
+{
+  "team_commit": "1c4d7b32ab254d8444b401b06750dfb6e2bfca9e",
+  "smoke_ids": [
+    "validation_Accounting_22",
+    "validation_Accounting_28"
+  ],
+  "targets": [
+    {
+      "id": "validation_Accounting_22",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Accounting_22_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Accounting_22_1.png",
+          "size": [
+            406,
+            166
+          ],
+          "rgb_pixels_sha256": "e37e23518fb13dea5ef5290c34264aa608fb85619c91cc18e45be16b207a8d73",
+          "png_sha256": "68b3600de4046b7ad9257b2fccb8db28ed18c96eb6ba6a1811379a7bc35b0575"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "B"
+    },
+    {
+      "id": "validation_Accounting_28",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Accounting_28_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Accounting_28_1.png",
+          "size": [
+            736,
+            328
+          ],
+          "rgb_pixels_sha256": "0b9b4d71fba3108f7867aa92a45e87a4eddf1eb5f8dfb660dff0790e63f331e2",
+          "png_sha256": "e4cebc7750cea3d310a6ce61e8a95d7206e925aada419c71f350081f29262e89"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "A"
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_13",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Architecture_and_Engineering_13_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Architecture_and_Engineering_13_1.png",
+          "size": [
+            426,
+            382
+          ],
+          "rgb_pixels_sha256": "489aa7928ea4faa4cd7c634349d91628ad956a99fe699eeb1af0bf4d785af874",
+          "png_sha256": "05632949d6cfccac4fc4125ffeac03649a230b20e91de21e78399dfb68a98666"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "B"
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_17",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Architecture_and_Engineering_17_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Architecture_and_Engineering_17_1.png",
+          "size": [
+            889,
+            101
+          ],
+          "rgb_pixels_sha256": "175c862c8add6d965c3243089ef1d70d915824cc6adcb691ab901adcdeaec0c0",
+          "png_sha256": "16a5d5dd3903d893c6f85c0d33ed6c9af3d83a5f21d169d2ca228bf4a843ccf4"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "D"
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_18",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Architecture_and_Engineering_18_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Architecture_and_Engineering_18_1.png",
+          "size": [
+            610,
+            100
+          ],
+          "rgb_pixels_sha256": "6e0b712251c5f1691f2a5ea41932133f8f839f67ef168e1d771a1e3fd6d62602",
+          "png_sha256": "e5e6e581364bee87ce33c61fab1b22585b7c34a25d83232d0bfc326fcbfc2c80"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "B"
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_22",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Architecture_and_Engineering_22_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Architecture_and_Engineering_22_1.png",
+          "size": [
+            529,
+            149
+          ],
+          "rgb_pixels_sha256": "4826abee2c47bdaef7950d22caf9d90684a43b29ad867280af220d90cae0c97c",
+          "png_sha256": "c8cdcec01b0d5251200fb647306d75b23f40203dfb4b40fd53a68601549a299c"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "B"
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_26",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Architecture_and_Engineering_26_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Architecture_and_Engineering_26_1.png",
+          "size": [
+            382,
+            353
+          ],
+          "rgb_pixels_sha256": "e96d360d81155d5a11f73869d953904acf21424652646e7870b57ff02be2fd44",
+          "png_sha256": "638694f68e1a174191459e342a6c7db9f9854010208980acfa7dac870608dd3e"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "D"
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_9",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Architecture_and_Engineering_9_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Architecture_and_Engineering_9_1.png",
+          "size": [
+            529,
+            69
+          ],
+          "rgb_pixels_sha256": "268b81c1b922ec8fbaab168d94972cfb3964e09ace95d6cd6802828778ad8620",
+          "png_sha256": "1128d56e4c6b0719a668a51c2ea090da56cc792572e177076a7e2a20de2a0558"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "B"
+    },
+    {
+      "id": "validation_Computer_Science_12",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Computer_Science_12_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Computer_Science_12_1.png",
+          "size": [
+            508,
+            213
+          ],
+          "rgb_pixels_sha256": "e79828c199a2f84c2c32b2dfcc81974f99dd278c953094380b453258d0f8b435",
+          "png_sha256": "b78b1686a7005871363a26c43dd6a154c086a33d084f760c2d8049efd26a8ce1"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "D"
+    },
+    {
+      "id": "validation_Electronics_14",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Electronics_14_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Electronics_14_1.png",
+          "size": [
+            528,
+            287
+          ],
+          "rgb_pixels_sha256": "1f74b49f1e5a7348c58918ef46866a09390ffba684b042b124982b74b0f29afd",
+          "png_sha256": "d3be2cb0130dcecf4b547563ae25b3dfcbd00f37fb1922598ebaa40d4d9f893f"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "C"
+    },
+    {
+      "id": "validation_Electronics_17",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Electronics_17_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Electronics_17_1.png",
+          "size": [
+            601,
+            263
+          ],
+          "rgb_pixels_sha256": "0d96a28aa89c491f7f69f69da46d0bc606ec54cd5e4ca4f9c7872641f4f67459",
+          "png_sha256": "41bf356ba5a6e7743e37cc82201ed013bdbfcfafcaf0ced5375f61ad4f4442de"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "A"
+    },
+    {
+      "id": "validation_Electronics_28",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Electronics_28_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Electronics_28_1.png",
+          "size": [
+            526,
+            147
+          ],
+          "rgb_pixels_sha256": "b1386b14a953b279b04798ed20619412b86e63663667d5e40c2861725cdc017b",
+          "png_sha256": "d031546c1c23cabd3930eeef94e5bba4677bb8313d0a24edf1b669ce8f7f8d2b"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "A"
+    },
+    {
+      "id": "validation_Electronics_7",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Electronics_7_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Electronics_7_1.png",
+          "size": [
+            404,
+            156
+          ],
+          "rgb_pixels_sha256": "a897f1edc5f1879613dd6315cbf8244a2bdd861e0b882dc6d34d2c0327fdca20",
+          "png_sha256": "c32e86f980884ed4a74b251dfe5d1be8cfcbb4ea4b8a0b5a8298430cb1ad092a"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "C"
+    },
+    {
+      "id": "validation_Electronics_9",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Electronics_9_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Electronics_9_1.png",
+          "size": [
+            491,
+            158
+          ],
+          "rgb_pixels_sha256": "59ae57fd08b91fc9fc34ebc4b2aaa89f470c26d57cfc21f5bd24a22f920a0381",
+          "png_sha256": "febf331f40a59c606569d9d5ba05a5bd43d22ebe70f18f3edd7696c4bdb0abcc"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "C"
+    },
+    {
+      "id": "validation_Energy_and_Power_1",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_1_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_1_1.png",
+          "size": [
+            439,
+            195
+          ],
+          "rgb_pixels_sha256": "525001aedd0776ed2a7063dcbc2cddab99ef227417012c5818bcc0763f181b8b",
+          "png_sha256": "62b0eee33b9dae7e61f901387869a9aabad258e241a7cccfe7a43f5b3c57efce"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "B"
+    },
+    {
+      "id": "validation_Energy_and_Power_12",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_12_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_12_1.png",
+          "size": [
+            569,
+            598
+          ],
+          "rgb_pixels_sha256": "1f88795268239113b8ead1544bf114fc21f70ceaf21a76e0e7cbca4808efa854",
+          "png_sha256": "7bb4f630e732e778984848fd9b8ef3d80fcec57894b8e6d79d1ba77ff14b2690"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "B"
+    },
+    {
+      "id": "validation_Energy_and_Power_13",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_13_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_13_1.png",
+          "size": [
+            708,
+            694
+          ],
+          "rgb_pixels_sha256": "632452ddbd843f48b1b41117fb29d71414de6476be1cc60753085add9ab29cc3",
+          "png_sha256": "00148a607c951430d55a0092366c6294a1c9b9ae5ea6c44d809b05415a5f3cb4"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "C"
+    },
+    {
+      "id": "validation_Energy_and_Power_14",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_14_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_14_1.png",
+          "size": [
+            301,
+            249
+          ],
+          "rgb_pixels_sha256": "e3bfe6b002d236002eec0171360d87e3f65f86246988fdb0f1030da53051c9e5",
+          "png_sha256": "d899276f87068811ab2f0c79945d5e8f8810781435f856d070a882413c6573bc"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "C"
+    },
+    {
+      "id": "validation_Energy_and_Power_17",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_17_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_17_1.png",
+          "size": [
+            444,
+            270
+          ],
+          "rgb_pixels_sha256": "5d64a04c76d08d64f52704608163b1998d1c07f9a62c3b49b94383b9b19b583e",
+          "png_sha256": "008ca6b883675cbd9273ab97d3c1208118896360c0d004790d2ca8484b572ae7"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "A"
+    },
+    {
+      "id": "validation_Energy_and_Power_22",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_22_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_22_1.png",
+          "size": [
+            346,
+            298
+          ],
+          "rgb_pixels_sha256": "a5eea2ae27df23de81137b1cd2273ca8930173eba282887a8f1ef09844feebab",
+          "png_sha256": "bf74d7dd3ba2219ef88f8ea93707dad86dce4ee09888884b75384461dd236a2d"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "A"
+    },
+    {
+      "id": "validation_Energy_and_Power_4",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_4_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_4_1.png",
+          "size": [
+            922,
+            236
+          ],
+          "rgb_pixels_sha256": "ac09ee259718d7840f4d430ff698f240ac7a980ae58394364bb6932319f584c4",
+          "png_sha256": "66d6da2fc6166a084c25c802b1cb3bbf2d2bf4664f2d7f762f28ba9e308836c6"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "B"
+    },
+    {
+      "id": "validation_Energy_and_Power_8",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_8_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_8_1.png",
+          "size": [
+            238,
+            292
+          ],
+          "rgb_pixels_sha256": "e1e6cf356f0d2b93f0c7735ebb5a5b62536e77f9138f7e9cd60a4a882c88ca6c",
+          "png_sha256": "6539d72a1415eda2f1028d3d7b6f337245fb74b532324ae23be272ff86113523"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "C"
+    },
+    {
+      "id": "validation_Energy_and_Power_9",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_9_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_9_1.png",
+          "size": [
+            282,
+            310
+          ],
+          "rgb_pixels_sha256": "1d1921dfbbfd695049057d983ac817ab0a01f5ea5db5f35f7ce361354570e75a",
+          "png_sha256": "b8b321cd83c38b0fc6821a1dd83455907285432d8bcd90e62c08c3497b5e1c49"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "C"
+    },
+    {
+      "id": "validation_Marketing_23",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Marketing_23_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Marketing_23_1.png",
+          "size": [
+            1216,
+            616
+          ],
+          "rgb_pixels_sha256": "021885fe421f15e75762517e13e51f4fb138e471af6afe27571d13e52e9551fb",
+          "png_sha256": "8d9c1eab34cd958f21185af56f3e68cf038e214805c4329edcc9f43ec629d8c1"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "C"
+    },
+    {
+      "id": "validation_Materials_20",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Materials_20_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Materials_20_1.png",
+          "size": [
+            463,
+            508
+          ],
+          "rgb_pixels_sha256": "428c86f23e68065cd47e72639773cd5c28a22eda3825242819fcdcec5affd972",
+          "png_sha256": "b4f77ff0c6b92e5930de130ce5a0f166c92891ba82f9c7242ef57e9b58d45fe5"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "D"
+    },
+    {
+      "id": "validation_Materials_22",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Materials_22_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Materials_22_1.png",
+          "size": [
+            580,
+            429
+          ],
+          "rgb_pixels_sha256": "d51fd4a4b617a85cccca7de86a6c52b101bea0457beb01c5896b0a7d8770606d",
+          "png_sha256": "ed56efb6c3280cdf1ef301bca10a1a1c05b93df047f1d1d6b93471f63598d4f4"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "C"
+    },
+    {
+      "id": "validation_Materials_4",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Materials_4_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Materials_4_1.png",
+          "size": [
+            358,
+            324
+          ],
+          "rgb_pixels_sha256": "795f458c6f4d2a5ef57e9c108252bbdfba1748209ed151124225015ba33a28d5",
+          "png_sha256": "7cc449aea5d8499eb3a111b37761a28adde9c22186d14d6c03b9e6b5971ea6d6"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "B"
+    },
+    {
+      "id": "validation_Materials_5",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Materials_5_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Materials_5_1.png",
+          "size": [
+            603,
+            649
+          ],
+          "rgb_pixels_sha256": "dd87f70f1dba1c0ccc0e4ffc4b59787a2d95407c4f5364e3a7154eade9ac404b",
+          "png_sha256": "d18c95da8a34fa5da175b5ad6e82a80472c5546aba6d4fde7c35b60433c8ea58"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "B"
+    },
+    {
+      "id": "validation_Materials_6",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Materials_6_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Materials_6_1.png",
+          "size": [
+            285,
+            273
+          ],
+          "rgb_pixels_sha256": "e4b8d96feccc0cf0f78beab23c38255c23055c7c12acfc37c8d86393fc77eff7",
+          "png_sha256": "8462935ecff3664ffce967548ee2848c7dc9e3d35e035972e3b28e09d186a410"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "D"
+    },
+    {
+      "id": "validation_Materials_9",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Materials_9_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Materials_9_1.png",
+          "size": [
+            576,
+            262
+          ],
+          "rgb_pixels_sha256": "4fdd3ba3c324ec339c96da263f84bee74d1f99e2735bdd65d9559ae1318fe3e0",
+          "png_sha256": "e2a1dbd2ec0de9499b52adae907903256653b22abf32ebdf90cf00f7f8be1641"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "B"
+    },
+    {
+      "id": "validation_Math_16",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Math_16_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Math_16_1.png",
+          "size": [
+            465,
+            286
+          ],
+          "rgb_pixels_sha256": "be974420449606f773d964c852d3b64f0a97f0c930a5c0bcafa41c288eef6214",
+          "png_sha256": "b03bf2f5e2695c8cc2b5e09e4e33a33894e8b77f294751086bd8d325734fef3b"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "D"
+    },
+    {
+      "id": "validation_Mechanical_Engineering_27",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Mechanical_Engineering_27_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Mechanical_Engineering_27_1.png",
+          "size": [
+            656,
+            391
+          ],
+          "rgb_pixels_sha256": "ee1cde5ef4b1dcf3d6960d7786a0123f1db4154838fdc570fca627566740f705",
+          "png_sha256": "0528ae2a0724da8c33489f34f76a79e02a037c432c4de790da3e91ea25d710a6"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "C"
+    },
+    {
+      "id": "validation_Mechanical_Engineering_28",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Mechanical_Engineering_28_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Mechanical_Engineering_28_1.png",
+          "size": [
+            793,
+            317
+          ],
+          "rgb_pixels_sha256": "0bff35d205226da6e1119af752bfc60cd557afc25be70cd1d892210e1dcc16bf",
+          "png_sha256": "beed05395fbcaeac59ac7bf1fad574419783ad17ed692506e9e8876d01999469"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "C"
+    },
+    {
+      "id": "validation_Mechanical_Engineering_4",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Mechanical_Engineering_4_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Mechanical_Engineering_4_1.png",
+          "size": [
+            545,
+            308
+          ],
+          "rgb_pixels_sha256": "67c616fa768cdfa97c19b40e231d46930eff8dd85c7c0086377f64897d5b5822",
+          "png_sha256": "ba06def131295dc29028b1a305e672ef23aee7200ba8415da606bb49cfb39eac"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "B"
+    },
+    {
+      "id": "validation_Mechanical_Engineering_8",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Mechanical_Engineering_8_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Mechanical_Engineering_8_1.png",
+          "size": [
+            457,
+            219
+          ],
+          "rgb_pixels_sha256": "b7dea6d10bfdced96c9c98be35c5e9edc9f17b885bc13f59c3f5f1fb16aefdbb",
+          "png_sha256": "729e56101f6388fb4f86de2bb971757e759c323bc5abd8eed6259b81713fd81c"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "B"
+    },
+    {
+      "id": "validation_Music_14",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Music_14_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Music_14_1.png",
+          "size": [
+            429,
+            459
+          ],
+          "rgb_pixels_sha256": "20f2f154bd07fb98cf99e7c76ddc87a1d272bdf3dd2b278e19f63e38f8be254a",
+          "png_sha256": "5faf9e5723b94ba8c5dd88f5ec230ccf381395799632f700392fbd4d65724ee5"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "B"
+    },
+    {
+      "id": "validation_Music_23",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Music_23_1.png",
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Music_23_2.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Music_23_1.png",
+          "size": [
+            1651,
+            187
+          ],
+          "rgb_pixels_sha256": "d7c8f6812cb1cf07d915de7bdf8c39607a9c40ecc913a9066ef38a148115a921",
+          "png_sha256": "27259d95bfff59afb5966cc48c7d84ac17fe7376167b7b417eb2d2f63539ea8a"
+        },
+        {
+          "number": 2,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Music_23_2.png",
+          "size": [
+            1506,
+            620
+          ],
+          "rgb_pixels_sha256": "3165b6248ebc33b24e57fda1a0535d4a2994110f40d32c098ab4f5b1cc367c73",
+          "png_sha256": "6158aeb92df4e67f0f2c2aec652fe0a82640d53b938e06ede93d5cef4205b9d1"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "C"
+    },
+    {
+      "id": "validation_Music_25",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Music_25_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Music_25_1.png",
+          "size": [
+            397,
+            164
+          ],
+          "rgb_pixels_sha256": "90592166e80994785444117b42c2d06316133ead61a62a8a72fe032340148591",
+          "png_sha256": "f7f31a399434a9856016c30f1326819d6f147838b45efad9bd79d5399a91c3b1"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "B"
+    },
+    {
+      "id": "validation_Music_27",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Music_27_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Music_27_1.png",
+          "size": [
+            2130,
+            320
+          ],
+          "rgb_pixels_sha256": "1143ff914f177291acd1b4209511b0b580d84ca8fb89353ea7ced10fb64102e5",
+          "png_sha256": "179337bb45b316d9da7f7f9e0cf56a91d4e321331670724aae5a10daddbb8725"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "C"
+    },
+    {
+      "id": "validation_Physics_18",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Physics_18_1.png"
+      ],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Physics_18_1.png",
+          "size": [
+            508,
+            246
+          ],
+          "rgb_pixels_sha256": "fc629a115b3fecd4461ebb8b7623f1be0be939e3e0c820b4a18208d20316cd8a",
+          "png_sha256": "6859399f25fab60ca549f048bf558d9716d480d49e7978bc0b49d85f00349bcc"
+        }
+      ],
+      "historical_finish_reason": "length",
+      "historical_answer_extracted": false,
+      "gold": "A"
+    }
+  ],
+  "sources": {
+    "historical_predictions": {
+      "path": "/home/gpu/projects/MMDL-team/results/validation900_cot8192_guard_full/predictions.jsonl",
+      "sha256": "a2336c6a92acbb190ae6c1a40085c97db942158ea107ae1db5469451c3734e39"
+    },
+    "historical_judgments": {
+      "path": "/home/gpu/projects/MMDL-team/results/validation900_rules_v1/judgments.jsonl",
+      "sha256": "f1ff9fb18fb2949f1e64dd53df5d2a8b37d38e21258aaf2b9a70d2bb8dff0fba"
+    },
+    "source_selection": {
+      "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/target_ids.json",
+      "sha256": "4eeac19dcaee912c5319fe001439107a5bde4922ffd8d639218558b47605356b"
+    },
+    "image_manifest": {
+      "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/image_manifest.json",
+      "sha256": "df0c951217114190b5cacef28a81e70746d02f8ba9549f956a4baf71ef51a6e2",
+      "dataset": "MMMU/MMMU",
+      "revision": "876ce5cb130f7f7e290ce4d9984357737d4db5cf",
+      "historical_image_equivalence": "unverified"
+    }
+  }
+}
