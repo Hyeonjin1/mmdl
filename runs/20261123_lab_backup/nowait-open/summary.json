@@ -1,0 +1,41 @@
+{
+  "expected_pairs": 53,
+  "generated_pairs": 53,
+  "judged_pairs": 50,
+  "conditions": {
+    "baseline": {
+      "generated": 53,
+      "judged": 52,
+      "correct": 21,
+      "paired_correct": 21,
+      "length": 4,
+      "repetition_abort": 4,
+      "unextracted": 5,
+      "pending": {
+        "validation_Electronics_29": "open_uncertain"
+      },
+      "paired_generation_tokens": 100354,
+      "blocked_token_matches": 1441
+    },
+    "nowait": {
+      "generated": 53,
+      "judged": 51,
+      "correct": 20,
+      "paired_correct": 20,
+      "length": 1,
+      "repetition_abort": 1,
+      "unextracted": 1,
+      "pending": {
+        "validation_Architecture_and_Engineering_14": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+        "validation_Chemistry_23": "open_uncertain"
+      },
+      "paired_generation_tokens": 78775,
+      "blocked_token_matches": 0
+    }
+  },
+  "token_saving_fraction": 0.21502879805488573,
+  "gained_ids": [],
+  "lost_ids": [
+    "validation_Manage_17"
+  ]
+}
