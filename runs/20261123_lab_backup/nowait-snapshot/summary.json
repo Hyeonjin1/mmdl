@@ -112,10 +112,9 @@
       "generated_tokens_median": 3672.0,
       "seconds_total": 81.54317998600891,
       "seconds_mean": 40.771589993004454,
-      "generated": 3,
+      "generated": 4,
       "scored": 2,
       "missing_generation_ids": [
-        "validation_Architecture_and_Engineering_17",
         "validation_Architecture_and_Engineering_18",
         "validation_Architecture_and_Engineering_22",
         "validation_Architecture_and_Engineering_26",
@@ -154,7 +153,8 @@
         "validation_Physics_18"
       ],
       "pending_score_ids": [
-        "validation_Architecture_and_Engineering_13"
+        "validation_Architecture_and_Engineering_13",
+        "validation_Architecture_and_Engineering_17"
       ]
     }
   },
@@ -225,7 +225,7 @@
   },
   "mask_check": {
     "nowait_violations": 0,
-    "nowait_id_coverage": 3,
+    "nowait_id_coverage": 4,
     "baseline_id_coverage": 3,
     "baseline_id_unavailable": 0,
     "baseline_questions_with_blocked_ids": 3,
