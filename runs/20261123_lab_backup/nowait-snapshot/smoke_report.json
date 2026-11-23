@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "contract": "7dd9ef1ee04913ec9a1fcbfbc7a55d9f46586a71ea38585d9f9c55fe7d021231",
+  "ids": [
+    "validation_Accounting_22",
+    "validation_Accounting_28"
+  ],
+  "cpu": {
+    "passed": true,
+    "baseline_argmax": 714,
+    "nowait_argmax": 0,
+    "allowed_logits_unchanged": true,
+    "blocked_logits_negative_infinity": 918,
+    "historical_retokenized_smoke_counts": {
+      "validation_Accounting_22": 149,
+      "validation_Accounting_28": 196
+    },
+    "special_count": 16
+  },
+  "gpu_checks": [
+    {
+      "question_id": "validation_Accounting_22",
+      "same_input": true,
+      "same_sampling": true,
+      "baseline_blocked_tokens": 113,
+      "nowait_violations": 0,
+      "baseline_finish": "length",
+      "nowait_finish": "repetition_abort",
+      "repetition_abort_observed": true
+    },
+    {
+      "question_id": "validation_Accounting_28",
+      "same_input": true,
+      "same_sampling": true,
+      "baseline_blocked_tokens": 60,
+      "nowait_violations": 0,
+      "baseline_finish": "stop",
+      "nowait_finish": "stop",
+      "repetition_abort_observed": false
+    }
+  ]
+}

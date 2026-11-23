@@ -1,0 +1,271 @@
+{
+  "expected_pairs": 40,
+  "completed_pairs": 2,
+  "complete": false,
+  "missing_ids": [
+    "validation_Architecture_and_Engineering_13",
+    "validation_Architecture_and_Engineering_17",
+    "validation_Architecture_and_Engineering_18",
+    "validation_Architecture_and_Engineering_22",
+    "validation_Architecture_and_Engineering_26",
+    "validation_Architecture_and_Engineering_9",
+    "validation_Computer_Science_12",
+    "validation_Electronics_14",
+    "validation_Electronics_17",
+    "validation_Electronics_28",
+    "validation_Electronics_7",
+    "validation_Electronics_9",
+    "validation_Energy_and_Power_1",
+    "validation_Energy_and_Power_12",
+    "validation_Energy_and_Power_13",
+    "validation_Energy_and_Power_14",
+    "validation_Energy_and_Power_17",
+    "validation_Energy_and_Power_22",
+    "validation_Energy_and_Power_4",
+    "validation_Energy_and_Power_8",
+    "validation_Energy_and_Power_9",
+    "validation_Marketing_23",
+    "validation_Materials_20",
+    "validation_Materials_22",
+    "validation_Materials_4",
+    "validation_Materials_5",
+    "validation_Materials_6",
+    "validation_Materials_9",
+    "validation_Math_16",
+    "validation_Mechanical_Engineering_27",
+    "validation_Mechanical_Engineering_28",
+    "validation_Mechanical_Engineering_4",
+    "validation_Mechanical_Engineering_8",
+    "validation_Music_14",
+    "validation_Music_23",
+    "validation_Music_25",
+    "validation_Music_27",
+    "validation_Physics_18"
+  ],
+  "conditions": {
+    "baseline": {
+      "count": 2,
+      "correct": 0,
+      "accuracy": 0.0,
+      "extracted": 1,
+      "length": 1,
+      "repetition_abort": 0,
+      "generated_tokens_total": 10279,
+      "generated_tokens_mean": 5139.5,
+      "generated_tokens_median": 5139.5,
+      "seconds_total": 118.95128468298935,
+      "seconds_mean": 59.47564234149468,
+      "generated": 3,
+      "scored": 2,
+      "missing_generation_ids": [
+        "validation_Architecture_and_Engineering_17",
+        "validation_Architecture_and_Engineering_18",
+        "validation_Architecture_and_Engineering_22",
+        "validation_Architecture_and_Engineering_26",
+        "validation_Architecture_and_Engineering_9",
+        "validation_Computer_Science_12",
+        "validation_Electronics_14",
+        "validation_Electronics_17",
+        "validation_Electronics_28",
+        "validation_Electronics_7",
+        "validation_Electronics_9",
+        "validation_Energy_and_Power_1",
+        "validation_Energy_and_Power_12",
+        "validation_Energy_and_Power_13",
+        "validation_Energy_and_Power_14",
+        "validation_Energy_and_Power_17",
+        "validation_Energy_and_Power_22",
+        "validation_Energy_and_Power_4",
+        "validation_Energy_and_Power_8",
+        "validation_Energy_and_Power_9",
+        "validation_Marketing_23",
+        "validation_Materials_20",
+        "validation_Materials_22",
+        "validation_Materials_4",
+        "validation_Materials_5",
+        "validation_Materials_6",
+        "validation_Materials_9",
+        "validation_Math_16",
+        "validation_Mechanical_Engineering_27",
+        "validation_Mechanical_Engineering_28",
+        "validation_Mechanical_Engineering_4",
+        "validation_Mechanical_Engineering_8",
+        "validation_Music_14",
+        "validation_Music_23",
+        "validation_Music_25",
+        "validation_Music_27",
+        "validation_Physics_18"
+      ],
+      "pending_score_ids": [
+        "validation_Architecture_and_Engineering_13"
+      ]
+    },
+    "nowait": {
+      "count": 2,
+      "correct": 0,
+      "accuracy": 0.0,
+      "extracted": 1,
+      "length": 0,
+      "repetition_abort": 1,
+      "generated_tokens_total": 7344,
+      "generated_tokens_mean": 3672,
+      "generated_tokens_median": 3672.0,
+      "seconds_total": 81.54317998600891,
+      "seconds_mean": 40.771589993004454,
+      "generated": 2,
+      "scored": 2,
+      "missing_generation_ids": [
+        "validation_Architecture_and_Engineering_13",
+        "validation_Architecture_and_Engineering_17",
+        "validation_Architecture_and_Engineering_18",
+        "validation_Architecture_and_Engineering_22",
+        "validation_Architecture_and_Engineering_26",
+        "validation_Architecture_and_Engineering_9",
+        "validation_Computer_Science_12",
+        "validation_Electronics_14",
+        "validation_Electronics_17",
+        "validation_Electronics_28",
+        "validation_Electronics_7",
+        "validation_Electronics_9",
+        "validation_Energy_and_Power_1",
+        "validation_Energy_and_Power_12",
+        "validation_Energy_and_Power_13",
+        "validation_Energy_and_Power_14",
+        "validation_Energy_and_Power_17",
+        "validation_Energy_and_Power_22",
+        "validation_Energy_and_Power_4",
+        "validation_Energy_and_Power_8",
+        "validation_Energy_and_Power_9",
+        "validation_Marketing_23",
+        "validation_Materials_20",
+        "validation_Materials_22",
+        "validation_Materials_4",
+        "validation_Materials_5",
+        "validation_Materials_6",
+        "validation_Materials_9",
+        "validation_Math_16",
+        "validation_Mechanical_Engineering_27",
+        "validation_Mechanical_Engineering_28",
+        "validation_Mechanical_Engineering_4",
+        "validation_Mechanical_Engineering_8",
+        "validation_Music_14",
+        "validation_Music_23",
+        "validation_Music_25",
+        "validation_Music_27",
+        "validation_Physics_18"
+      ],
+      "pending_score_ids": []
+    }
+  },
+  "changes": {
+    "unextracted->correct": {
+      "count": 0,
+      "ids": []
+    },
+    "incorrect->correct": {
+      "count": 0,
+      "ids": []
+    },
+    "correct->incorrect": {
+      "count": 0,
+      "ids": []
+    },
+    "correct->unextracted": {
+      "count": 0,
+      "ids": []
+    }
+  },
+  "net_correct": 0,
+  "fresh_baseline_length": {
+    "count": 2,
+    "ids": [
+      "validation_Accounting_22",
+      "validation_Architecture_and_Engineering_13"
+    ],
+    "completed_pairs": 1,
+    "nowait_normal_stop": 0,
+    "nowait_extracted": 0,
+    "nowait_correct": 0,
+    "nowait_repetition_abort": 1
+  },
+  "token_savings": {
+    "all_pairs": {
+      "count": 2,
+      "tokens": {
+        "baseline": 10279,
+        "nowait": 7344
+      },
+      "savings": 0.28553361221908746
+    },
+    "both_normal": {
+      "count": 1,
+      "tokens": {
+        "baseline": 2087,
+        "nowait": 1712
+      },
+      "savings": 0.1796837565884044
+    },
+    "nowait_repetition_abort": {
+      "count": 1,
+      "tokens": {
+        "baseline": 8192,
+        "nowait": 5632
+      },
+      "savings": 0.3125
+    },
+    "without_nowait_repetition_abort": {
+      "count": 1,
+      "tokens": {
+        "baseline": 2087,
+        "nowait": 1712
+      },
+      "savings": 0.1796837565884044
+    }
+  },
+  "mask_check": {
+    "nowait_violations": 0,
+    "nowait_id_coverage": 2,
+    "baseline_id_coverage": 3,
+    "baseline_id_unavailable": 0,
+    "baseline_questions_with_blocked_ids": 3,
+    "baseline_blocked_token_count": 319,
+    "baseline_blocked_id_frequencies": {
+      "714": 81,
+      "894": 4,
+      "1008": 6,
+      "1414": 3,
+      "1431": 1,
+      "1549": 6,
+      "1657": 3,
+      "1779": 8,
+      "1988": 10,
+      "2441": 7,
+      "2813": 4,
+      "3783": 3,
+      "3983": 58,
+      "5937": 1,
+      "7039": 16,
+      "7196": 12,
+      "8088": 3,
+      "9788": 1,
+      "10146": 1,
+      "11209": 2,
+      "12341": 2,
+      "13824": 8,
+      "14037": 10,
+      "14190": 30,
+      "15934": 3,
+      "16792": 2,
+      "18527": 7,
+      "19026": 3,
+      "21390": 3,
+      "24765": 2,
+      "30385": 1,
+      "31140": 3,
+      "42972": 1,
+      "75763": 1,
+      "80022": 1,
+      "92014": 12
+    }
+  }
+}
