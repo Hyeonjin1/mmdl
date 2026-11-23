@@ -26,3 +26,5 @@
 답안 전환에서는 에너지·전력 13번이 채점 보류로 남았다. 차단 목록 정제의 보류 문항은 건축·공학 26번과 재료 9번이었다.
 
 [NoWait 보고서](../NOWAIT_REPORT_KO.md) · [실행 설정](followup_config.json) · [원본 집계 JSON](summary.json) · [실행 코드](nowait_followup.py) · [실행 스크립트](run-followup.sh)
+
+후속 실험 기준 입력은 [NoWait 최종 체크포인트 복원 안내](../nowait-final-checkpoint/README.md)에서 받을 수 있다. 생성 40건·판정 38건이며, 두 JSONL의 해시를 후속 실행 계약과 대조했다.

@@ -102,3 +102,5 @@ NoWait은 53문항 생성을 완료했다. 정답 20건을 확인했고 2건은 
 | 사회 | 18 / 30 (60.00%) | 18 / 30 (60.00%) | 18 / 30 (60.00%) |
 
 [과거 B0 전체 집계](https://github.com/eses0070/MMDL/blob/1c4d7b32ab254d8444b401b06750dfb6e2bfca9e/results/validation900_rules_v1/summary.json) · [대상 40문항](https://github.com/eses0070/MMDL/blob/seokmin/experiments/parser_v2/results/verified_parser_v2/remaining.jsonl) · [NoWait 정답 문항](nowait-input-audit.json) · [답안 전환 집계](nowait-followup/summary.json) · [NoWait 미추출 집계 기록](https://github.com/Hyeonjin1/mmdl/blob/13257042f002d58b575ed4f99dd4d797277486f9/runs/20261123_lab_backup/nowait-followup/experiment.md)
+
+후속 실험 기준 입력은 [NoWait 최종 체크포인트 복원 안내](nowait-final-checkpoint/README.md)에서 받을 수 있다. 생성 40건·판정 38건이며, 두 JSONL의 해시를 후속 실행 계약과 대조했다.
