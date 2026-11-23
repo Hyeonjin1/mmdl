@@ -1,11 +1,8 @@
 {
   "expected_pairs": 40,
-  "completed_pairs": 2,
+  "completed_pairs": 5,
   "complete": false,
   "missing_ids": [
-    "validation_Architecture_and_Engineering_13",
-    "validation_Architecture_and_Engineering_17",
-    "validation_Architecture_and_Engineering_18",
     "validation_Architecture_and_Engineering_22",
     "validation_Architecture_and_Engineering_26",
     "validation_Architecture_and_Engineering_9",
@@ -44,19 +41,19 @@
   ],
   "conditions": {
     "baseline": {
-      "count": 2,
+      "count": 5,
       "correct": 0,
       "accuracy": 0.0,
       "extracted": 1,
-      "length": 1,
+      "length": 4,
       "repetition_abort": 0,
-      "generated_tokens_total": 10279,
-      "generated_tokens_mean": 5139.5,
-      "generated_tokens_median": 5139.5,
-      "seconds_total": 118.95128468298935,
-      "seconds_mean": 59.47564234149468,
+      "generated_tokens_total": 34855,
+      "generated_tokens_mean": 6971,
+      "generated_tokens_median": 8192,
+      "seconds_total": 401.8137717259815,
+      "seconds_mean": 80.3627543451963,
       "generated": 5,
-      "scored": 2,
+      "scored": 5,
       "missing_generation_ids": [
         "validation_Architecture_and_Engineering_22",
         "validation_Architecture_and_Engineering_26",
@@ -94,26 +91,22 @@
         "validation_Music_27",
         "validation_Physics_18"
       ],
-      "pending_score_ids": [
-        "validation_Architecture_and_Engineering_13",
-        "validation_Architecture_and_Engineering_17",
-        "validation_Architecture_and_Engineering_18"
-      ]
+      "pending_score_ids": []
     },
     "nowait": {
-      "count": 2,
-      "correct": 0,
-      "accuracy": 0.0,
-      "extracted": 1,
-      "length": 0,
+      "count": 5,
+      "correct": 1,
+      "accuracy": 0.2,
+      "extracted": 2,
+      "length": 2,
       "repetition_abort": 1,
-      "generated_tokens_total": 7344,
-      "generated_tokens_mean": 3672,
-      "generated_tokens_median": 3672.0,
-      "seconds_total": 81.54317998600891,
-      "seconds_mean": 40.771589993004454,
+      "generated_tokens_total": 30537,
+      "generated_tokens_mean": 6107.4,
+      "generated_tokens_median": 6809,
+      "seconds_total": 344.60921893198974,
+      "seconds_mean": 68.92184378639794,
       "generated": 5,
-      "scored": 2,
+      "scored": 5,
       "missing_generation_ids": [
         "validation_Architecture_and_Engineering_22",
         "validation_Architecture_and_Engineering_26",
@@ -151,17 +144,15 @@
         "validation_Music_27",
         "validation_Physics_18"
       ],
-      "pending_score_ids": [
-        "validation_Architecture_and_Engineering_13",
-        "validation_Architecture_and_Engineering_17",
-        "validation_Architecture_and_Engineering_18"
-      ]
+      "pending_score_ids": []
     }
   },
   "changes": {
     "unextracted->correct": {
-      "count": 0,
-      "ids": []
+      "count": 1,
+      "ids": [
+        "validation_Architecture_and_Engineering_18"
+      ]
     },
     "incorrect->correct": {
       "count": 0,
@@ -176,7 +167,7 @@
       "ids": []
     }
   },
-  "net_correct": 0,
+  "net_correct": 1,
   "fresh_baseline_length": {
     "count": 4,
     "ids": [
@@ -185,20 +176,20 @@
       "validation_Architecture_and_Engineering_17",
       "validation_Architecture_and_Engineering_18"
     ],
-    "completed_pairs": 1,
-    "nowait_normal_stop": 0,
-    "nowait_extracted": 0,
-    "nowait_correct": 0,
+    "completed_pairs": 4,
+    "nowait_normal_stop": 1,
+    "nowait_extracted": 1,
+    "nowait_correct": 1,
     "nowait_repetition_abort": 1
   },
   "token_savings": {
     "all_pairs": {
-      "count": 2,
+      "count": 5,
       "tokens": {
-        "baseline": 10279,
-        "nowait": 7344
+        "baseline": 34855,
+        "nowait": 30537
       },
-      "savings": 0.28553361221908746
+      "savings": 0.12388466504088369
     },
     "both_normal": {
       "count": 1,
@@ -217,12 +208,12 @@
       "savings": 0.3125
     },
     "without_nowait_repetition_abort": {
-      "count": 1,
+      "count": 4,
       "tokens": {
-        "baseline": 2087,
-        "nowait": 1712
+        "baseline": 26663,
+        "nowait": 24905
       },
-      "savings": 0.1796837565884044
+      "savings": 0.06593406593406592
     }
   },
   "mask_check": {

@@ -16,36 +16,39 @@
 
 ## 결과
 
-채점 완료 쌍 2/40. 미완료 ID validation_Architecture_and_Engineering_13, validation_Architecture_and_Engineering_17, validation_Architecture_and_Engineering_18, validation_Architecture_and_Engineering_22, validation_Architecture_and_Engineering_26, validation_Architecture_and_Engineering_9, validation_Computer_Science_12, validation_Electronics_14, validation_Electronics_17, validation_Electronics_28, validation_Electronics_7, validation_Electronics_9, validation_Energy_and_Power_1, validation_Energy_and_Power_12, validation_Energy_and_Power_13, validation_Energy_and_Power_14, validation_Energy_and_Power_17, validation_Energy_and_Power_22, validation_Energy_and_Power_4, validation_Energy_and_Power_8, validation_Energy_and_Power_9, validation_Marketing_23, validation_Materials_20, validation_Materials_22, validation_Materials_4, validation_Materials_5, validation_Materials_6, validation_Materials_9, validation_Math_16, validation_Mechanical_Engineering_27, validation_Mechanical_Engineering_28, validation_Mechanical_Engineering_4, validation_Mechanical_Engineering_8, validation_Music_14, validation_Music_23, validation_Music_25, validation_Music_27, validation_Physics_18.
+채점 완료 쌍 5/40. 미완료 ID validation_Architecture_and_Engineering_22, validation_Architecture_and_Engineering_26, validation_Architecture_and_Engineering_9, validation_Computer_Science_12, validation_Electronics_14, validation_Electronics_17, validation_Electronics_28, validation_Electronics_7, validation_Electronics_9, validation_Energy_and_Power_1, validation_Energy_and_Power_12, validation_Energy_and_Power_13, validation_Energy_and_Power_14, validation_Energy_and_Power_17, validation_Energy_and_Power_22, validation_Energy_and_Power_4, validation_Energy_and_Power_8, validation_Energy_and_Power_9, validation_Marketing_23, validation_Materials_20, validation_Materials_22, validation_Materials_4, validation_Materials_5, validation_Materials_6, validation_Materials_9, validation_Math_16, validation_Mechanical_Engineering_27, validation_Mechanical_Engineering_28, validation_Mechanical_Engineering_4, validation_Mechanical_Engineering_8, validation_Music_14, validation_Music_23, validation_Music_25, validation_Music_27, validation_Physics_18.
 
 | 조건 | 생성/채점 | 정답 | 정확도 | 추출 | 길이 종료 | 반복 종료 | 생성 토큰 합계/평균/중앙값 | 총 생성 초 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| baseline | 5/2 | 0 | 0.00% | 1 | 1 | 0 | 10,279 / 5,139.50 / 5,139.5 | 118.95 |
-| nowait | 5/2 | 0 | 0.00% | 1 | 0 | 1 | 7,344 / 3,672.00 / 3,672.0 | 81.54 |
+| baseline | 5/5 | 0 | 0.00% | 1 | 4 | 0 | 34,855 / 6,971.00 / 8,192.0 | 401.81 |
+| nowait | 5/5 | 1 | 20.00% | 2 | 2 | 1 | 30,537 / 6,107.40 / 6,809.0 | 344.61 |
 
-순증 정답 +0개. 표와 변화량의 분모는 채점이 완료된 짝이다.
+순증 정답 +1개. 표와 변화량의 분모는 채점이 완료된 짝이다.
 
-- 미추출→정답 0건. 
+- 미추출→정답 1건. `validation_Architecture_and_Engineering_18`
 - 오답→정답 0건. 
 - 정답→오답 0건. 
 - 정답→미추출 0건. 
 
-새 baseline 실제 길이 종료 4개 중 채점 완료 1쌍. 해당 NoWait에서 정상 종료 0개, 추출 0개, 정답 0개, 반복 종료 1개.
+새 baseline 실제 길이 종료 4개 중 채점 완료 4쌍. 해당 NoWait에서 정상 종료 1개, 추출 1개, 정답 1개, 반복 종료 1개.
 
 ### 토큰 절감
 
 | 완료 쌍 기준 | 쌍 | Baseline 토큰 | NoWait 토큰 | 절감률 |
 |---|---:|---:|---:|---:|
-| 전체 | 2 | 10,279 | 7,344 | 28.55% |
+| 전체 | 5 | 34,855 | 30,537 | 12.39% |
 | 양쪽 정상 종료 | 1 | 2,087 | 1,712 | 17.97% |
 | NoWait 반복 종료 | 1 | 8,192 | 5,632 | 31.25% |
-| NoWait 반복 종료 제외 | 1 | 2,087 | 1,712 | 17.97% |
+| NoWait 반복 종료 제외 | 4 | 26,663 | 24,905 | 6.59% |
 
 원본 ID 검증에서 NoWait 5문항의 위반 0건. Baseline은 원본 ID가 있는 5문항 중 5문항에서 차단 대상 토큰 총 530회가 나왔다. 측정 불가 0문항.
 
 ### 변화 사례
 
-- 미추출→정답 0건.
+- 미추출→정답 1건.
+  - `validation_Architecture_and_Engineering_18` 정답 `B`.
+    - baseline · length · 추출 `None` · terminal_rules_v1:no_unambiguous_terminal_answer · 원문 발췌 "But earlier when I assumed bearing from G to F is 284°13’, then bearing from F to G is 104°13’, and I got G = (2303.93, 237.54), GA = ( -2303.9"
+    - nowait · stop · 추출 `B` · team_judge_matched · 원문 발췌 "and the traverse.\n\nLet me try to compute the coordinates of G relative to A, then from G to F, then from F to A, then from A to G, etc.\n\nPerhaps the answer is B. 947.8 m, 216°45'\n\nSo I'll go with that.\n\n**Final Answer: B. 947.8 m, 216°45'**"
 - 오답→정답 0건.
 - 정답→오답 0건.
 - 정답→미추출 0건.
