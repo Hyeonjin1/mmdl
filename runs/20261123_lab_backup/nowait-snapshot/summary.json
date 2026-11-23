@@ -55,10 +55,9 @@
       "generated_tokens_median": 5139.5,
       "seconds_total": 118.95128468298935,
       "seconds_mean": 59.47564234149468,
-      "generated": 3,
+      "generated": 4,
       "scored": 2,
       "missing_generation_ids": [
-        "validation_Architecture_and_Engineering_17",
         "validation_Architecture_and_Engineering_18",
         "validation_Architecture_and_Engineering_22",
         "validation_Architecture_and_Engineering_26",
@@ -97,7 +96,8 @@
         "validation_Physics_18"
       ],
       "pending_score_ids": [
-        "validation_Architecture_and_Engineering_13"
+        "validation_Architecture_and_Engineering_13",
+        "validation_Architecture_and_Engineering_17"
       ]
     },
     "nowait": {
@@ -178,10 +178,11 @@
   },
   "net_correct": 0,
   "fresh_baseline_length": {
-    "count": 2,
+    "count": 3,
     "ids": [
       "validation_Accounting_22",
-      "validation_Architecture_and_Engineering_13"
+      "validation_Architecture_and_Engineering_13",
+      "validation_Architecture_and_Engineering_17"
     ],
     "completed_pairs": 1,
     "nowait_normal_stop": 0,
@@ -226,47 +227,49 @@
   "mask_check": {
     "nowait_violations": 0,
     "nowait_id_coverage": 4,
-    "baseline_id_coverage": 3,
+    "baseline_id_coverage": 4,
     "baseline_id_unavailable": 0,
-    "baseline_questions_with_blocked_ids": 3,
-    "baseline_blocked_token_count": 319,
+    "baseline_questions_with_blocked_ids": 4,
+    "baseline_blocked_token_count": 423,
     "baseline_blocked_id_frequencies": {
-      "714": 81,
+      "714": 111,
       "894": 4,
       "1008": 6,
       "1414": 3,
-      "1431": 1,
-      "1549": 6,
-      "1657": 3,
-      "1779": 8,
-      "1988": 10,
+      "1431": 2,
+      "1549": 12,
+      "1657": 5,
+      "1779": 10,
+      "1988": 14,
       "2441": 7,
       "2813": 4,
-      "3783": 3,
-      "3983": 58,
+      "3783": 6,
+      "3881": 3,
+      "3983": 89,
+      "4354": 1,
       "5937": 1,
-      "7039": 16,
-      "7196": 12,
+      "7039": 20,
+      "7196": 14,
       "8088": 3,
       "9788": 1,
       "10146": 1,
-      "11209": 2,
+      "11209": 3,
       "12341": 2,
-      "13824": 8,
-      "14037": 10,
-      "14190": 30,
+      "13824": 9,
+      "14037": 14,
+      "14190": 33,
       "15934": 3,
       "16792": 2,
       "18527": 7,
       "19026": 3,
       "21390": 3,
-      "24765": 2,
+      "24765": 3,
       "30385": 1,
       "31140": 3,
       "42972": 1,
       "75763": 1,
       "80022": 1,
-      "92014": 12
+      "92014": 17
     }
   }
 }
