@@ -5,8 +5,7 @@
 ## 이미지 출처와 실험 통제
 
 - **이번 Baseline과 NoWait 간 비교.** 이미지 출처는 고정 리비전 `876ce5cb130f7f7e290ce4d9984357737d4db5cf`의 `MMMU/MMMU` validation이다. 객관식 입력 이미지 41개의 PNG 바이트와 RGB 픽셀 SHA-256을 백업 매니페스트와 대조했다. 40쌍 모두 순서가 반영된 이미지 해시, 메시지 해시, 확장 프롬프트 토큰 해시와 샘플링 설정이 일치했다. 같은 가중치·생성 상한·반복 감지 정책을 사용했고, 의도된 조건 차이는 NoWait 마스크 적용 여부다. [입력 비교 및 토큰 검산 JSON](nowait-input-audit.json)
-- **과거 팀 B0와 비교.** 팀 B0도 MMMU validation의 로컬 RGB PNG를 사용했다. 문항 ID, 이미지 이름과 순서, 40문항의 입력 토큰 개수는 일치했다. 과거 B0는 eager, 재생성 Baseline은 컴파일·CUDA 그래프 사용으로 실행 방식이 다르고, Pillow 버전도 12.3.0과 13.0.0으로 다르다. 관찰된 출력 차이가 어느 조건에서 비롯됐는지는 확인하지 못했다. [기존 비교 보고서](MMMU_COMPARISON_KO.md)
-
+- **과거 팀 B0와 비교.** 팀 B0도 MMMU validation의 로컬 RGB PNG를 사용했다. 문항 ID, 이미지 이름과 순서, 40문항의 입력 토큰 개수는 일치했다. 과거 B0는 eager, 재생성 Baseline은 컴파일·CUDA 그래프 사용으로 실행 방식이 다르고, Pillow 버전도 12.3.0과 13.0.0으로 다르다.
 ## 객관식 40문항 결과
 
 | 지표 | 재생성 Baseline | NoWait |
